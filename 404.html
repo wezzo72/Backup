@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Barran Dodger Archive</title>
+<script>
+(function(){
+  var base   = '/Backup';
+  var rawBase= 'https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/';
+  var path   = window.location.pathname;
+  var search = window.location.search;
+
+  // If path points to an asset file, redirect to raw.githubusercontent.com
+  var assetDirs = ['documents/','evidence-images/','audio/','evidence/','images/','covers/','video/','attached_assets/'];
+  if (path.startsWith(base + '/')) {
+    var rest = path.slice(base.length + 1);
+    for (var i = 0; i < assetDirs.length; i++) {
+      if (rest.startsWith(assetDirs[i])) {
+        window.location.replace(rawBase + rest);
+        return;
+      }
+    }
+    // Handle root-level PDF
+    if (rest.match(/\.pdf$/i)) {
+      window.location.replace(rawBase + '../' + rest);
+      return;
+    }
+  }
+
+  // SPA fallback — redirect to React app preserving the route
+  var redirectTo = base + '/' + (path.slice(base.length + 1) || '');
+  sessionStorage.setItem('ghpages_redirect', redirectTo + search);
+  window.location.replace(base + '/');
+})();
+</script>
+</head>
+<body><p>Redirecting&hellip;</p></body>
+</html>

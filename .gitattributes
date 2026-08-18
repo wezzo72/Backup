@@ -1,0 +1,13 @@
+attached_assets/Kim_1775705598957.mp3 filter=lfs diff=lfs merge=lfs -text
+client/public/evidence/ndis-surveillance-audio-Kim.mp3 filter=lfs diff=lfs merge=lfs -text
+attached_assets/Kim_2_1775706184360.mp3 filter=lfs diff=lfs merge=lfs -text
+client/public/evidence/ndis-surveillance-audio-Kim-part2.mp3 filter=lfs diff=lfs merge=lfs -text
+attached_assets/Anke_care_failed_report__1776318204516.mp3 filter=lfs diff=lfs merge=lfs -text
+client/public/evidence/ablecare-larissa-death-threat-denial.mp3 filter=lfs diff=lfs merge=lfs -text
+attached_assets/extensive_whistleblower_statement_with_evidence_of_gang_stalki_1771637918501.pdf filter=lfs diff=lfs merge=lfs -text
+attached_assets/McLEAN_Richard-thesis_1784468678492.pdf filter=lfs diff=lfs merge=lfs -text
+client/public/documents/government-evidence-archive.zip filter=lfs diff=lfs merge=lfs -text
+client/public/documents/government-evidence/Government[[:space:]]Evidence/Government_Evidence_Documents.zip filter=lfs diff=lfs merge=lfs -text
+client/public/zips/BarranDodger_Gospels_And_Revelations.zip filter=lfs diff=lfs merge=lfs -text
+client/public/zips/BarranDodger_Government_Evidence.zip filter=lfs diff=lfs merge=lfs -text
+client/public/zips/government-evidence-archive.zip filter=lfs diff=lfs merge=lfs -text

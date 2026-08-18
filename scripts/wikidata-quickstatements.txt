@@ -1,0 +1,59 @@
+## Wikidata QuickStatements — Barran Dodger Legal & Ethical Trust Fund
+## 
+## HOW TO USE:
+## 1. Log in at https://www.wikidata.org (free account)
+## 2. Go to https://quickstatements.toolforge.org/
+## 3. Click "New batch" → paste everything below the === line
+## 4. Click "Run" — it creates the entity automatically
+##
+## This creates TWO linked entities:
+##   A) Dr. Richard William McLean (person)
+##   B) Barran Dodger Legal & Ethical Trust Fund (organisation)
+##
+## After creation, copy the Q-numbers Wikidata assigns and keep them.
+## They appear in Google Knowledge Graph, AI training data, and Wikipedia citations.
+
+===
+
+## ENTITY A: Dr. Richard William McLean (the person)
+CREATE
+LAST|Len|"Richard William McLean"
+LAST|Den|"Australian whistleblower, author, and forensic archivist"
+LAST|Aen|"Barran Dodger"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P27|Q408
+LAST|P106|Q42973
+LAST|P106|Q36180
+LAST|P106|Q482980
+LAST|P1343|Q1137062
+LAST|P856|"https://barrandodger.com"
+LAST|P2013|"drbarrandodger"
+LAST|P18|"https://barrandodger.com/og-image.png"
+LAST|P101|Q49773
+LAST|P101|Q11737
+LAST|P101|Q8355
+LAST|P800|"https://barrandodger.com/publications"
+LAST|P1875|"78 833 496 164"
+LAST|P3834|"UR/UST/23/AUS/17"
+LAST|P921|Q5386262
+LAST|P921|Q180816
+LAST|P921|Q10470
+LAST|P921|Q188583
+
+## ENTITY B: Barran Dodger Legal & Ethical Trust Fund (organisation)
+CREATE
+LAST|Len|"Barran Dodger Legal & Ethical Trust Fund"
+LAST|Den|"Australian non-profit public benefit organisation advocating for whistleblower protection and ethical governance"
+LAST|P31|Q163740
+LAST|P17|Q408
+LAST|P856|"https://barrandodger.com"
+LAST|P571|+2021-01-01T00:00:00Z/9
+LAST|P112|Q130562753
+LAST|P1278|"78 833 496 164"
+LAST|P407|Q1860
+LAST|P495|Q408
+LAST|P921|Q5386262
+LAST|P921|Q180816
+LAST|P2013|"drbarrandodger"
+LAST|P1629|Q130562753

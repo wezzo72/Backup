@@ -1,0 +1,12 @@
+attached_assets/
+scripts/
+.git/
+.local/
+.cache/
+.agents/
+.upm/
+github-pages-deploy/
+*.md
+*.log
+.env
+.env.*

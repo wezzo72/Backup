@@ -1,0 +1,13 @@
+- [Homepage is EntryLanding.tsx](homepage-routing.md) — barrandodger.com root `/` loads EntryLanding.tsx, NOT Home.tsx (Home.tsx is at `/archive`)
+- [Undeniable Facts Page Pattern](undeniable-facts-pattern.md) — rules for adding facts to /undeniable; 4 files must always be updated together
+- [Church of Barran page](church-of-barran-page.md) — Foundation charter at /church-of-barran-resonance-dodger; content data file + page renderer pattern
+- [OG image filenames](og-images.md) — Page-specific OG images exist for admin-annihilation, retrospective, evidence, verdict, publications; SEO image prop needs absolute URL (https://barrandodger.com/...)
+- [Pull quote components](pull-quotes.md) — AdministrativeAnnihilation uses `<PullQuote quote="..." source="..." accent="gold" />`; RetrospectiveStatement uses inline blockquote JSX; both patterns already established in those files
+- [Subscriber token system](subscriber-tokens.md) — custom HMAC tokens (NOT JWT); use isValidDownloadToken() + parse base64url payload for email (field "em"); issued by issueSubscriberToken(); stored in localStorage as bd_sub_token_v1
+- [Membership system](membership-system.md) — /membership (Stripe tiers), /members (portal); ntfy.sh push notifications on signup (topic: barrandodger-members-2026); admin at /api/admin/subscribers (x-admin-token: last 16 chars of STRIPE_SECRET_KEY)
+- [GitHub Pages mirror deploy](ghpages-deploy.md) — gh-pages branch at drbarrandodger/barran-dodger-archive; must pre-build locally and push via Git Data API; GitHub Actions build broken (Replit plugins + npm cache issues)
+- [GitHub auto-sync on deploy](github-auto-sync.md) — git push baked into .replit deployment build command; runs automatically on every publish; failure does NOT block deploy
+- [Production build ESM fix](prod-build-esm-fix.md) — dist/index.js wrapper must use import() not require(); package.json "type":"module" makes require() fatal in dist/index.js; fixed in script/build.ts
+- [Archiver v8 API change](archiver-v8-api.md) — use `new ZipArchive(opts)` not `archiver('zip', opts)`; v8 is pure ESM with named class exports only
+- [New PDF upload pattern](new-pdf-upload-pattern.md) — full 9-step checklist: stamp → cover image → page → App.tsx route → Gospel.tsx → FreeEbooks → Publications → restart → mirror push
+- [Automation scripts](automation-scripts.md) — which scripts run auto vs manually, tokens needed, IndexNow status, one-time tasks remaining

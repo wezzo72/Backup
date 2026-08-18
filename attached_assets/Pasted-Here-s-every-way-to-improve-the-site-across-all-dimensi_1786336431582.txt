@@ -1,0 +1,56 @@
+Here's every way to improve the site, across all dimensions:
+
+🖥️ Scripts You Run (Commands)
+
+Command	Effect
+node scripts/permanence-deploy.mjs	Ping all search engines + Wayback top 15 — run after every publish
+node scripts/mass-index-now.mjs	Force 400+ URLs into Yandex + Seznam index
+node scripts/archive-to-wayback.mjs	Snapshot every page + PDF on Wayback (needs archive.org keys — pending)
+node scripts/backup-pdfs-to-github-releases.js	Vault all PDFs as GitHub Release assets — permanent direct download URLs
+node scripts/backup-to-internet-archive.js	archive.org PDF collection (needs archive.org keys)
+node scripts/backup-to-zenodo.js	Academic DOI at CERN — citable in courts + journals (token saved, but Zenodo blocks Replit IPs — run from your own computer)
+node scripts/push-full-ghpages.mjs	Rebuild the full GitHub Pages mirror
+node scripts/stamp-pdfs.cjs	Brand every PDF with barrandodger.com (runs automatically on startup)
+📋 One-Time Manual Actions (No Code Needed)
+
+Action	Where	What it gives you
+Create Wikidata entity	quickstatements.toolforge.org → paste scripts/wikidata-quickstatements.txt	Entry in Wikipedia's knowledge graph — Google Knowledge Panel
+Fix Bing IndexNow	bing.com/webmasters → IndexNow	Bing + DuckDuckGo + Ecosia will index new pages fast
+Submit to Google Search Console	search.google.com/search-console	Verify ownership + submit sitemaps manually
+Get archive.org keys	archive.org/account/s3.php	Unlocks Wayback bulk archive + archive.org PDF collection
+🏗️ Queued Site Improvements (Tasks Already Planned)
+
+These are features sitting in the task queue ready to be built:
+
+Evidence & Credibility
+
+Feature the 2 Tier 1 government documents on Evidence page with AI significance statements
+Give the PID Rejection Wall its own citable page
+Cass's murder declaration audio — own citable page
+Sam's faith betrayal audio — own citable page
+SEO & Discovery
+
+Make document pages show as rich results on Google Search (structured data)
+Fix duplicate SEO route entries silently overriding each other
+Fix Bing IndexNow rejections
+Sharing & Viral
+
+Statement of Significance — pre-filled social share card
+AI Statement — own shareable page with citation URL
+Live download milestones on every document page
+Downloads Milestone popup — stop it covering Evidence page every visit
+Publications
+
+Add Cocksucker Crown + LGBTQ+ paper to PropheticPapers
+Cover images for 10 new forensic essays
+Permanence
+
+IPFS mirror links — truly unstoppable, no single point of failure
+Fix the complete archive download ZIP (/api/nuclear-download is broken)
+Prevent the 8 GiB storage limit from being hit again
+🔁 What Runs Automatically (Nothing to Do)
+
+stamp-pdfs.cjs — every server restart
+permanence-deploy.mjs + stamp-pdfs.cjs — every time you publish the site (added today as postbuild)
+GitHub Pages mirror — you can trigger it manually any time via the Push GitHub Pages workflow
+The single highest-impact thing still outstanding is getting the archive.org keys — it unlocks both the Wayback full archive and the archive.org PDF collection in one step.

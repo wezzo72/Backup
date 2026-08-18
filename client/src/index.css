@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* ── SOVEREIGN SCHEME — Academic Light · Royal Purple · Orange · Lime ── */
+  /* Legal/academic archive: clean white canvas, royal-purple authority,    */
+  /* searing orange urgency, lime-green data highlights.                     */
+
+  /* Base: clean academic off-white */
+  --background: 222 30% 97%;            /* #f4f6fc soft white with blue tint */
+  --foreground: 226 50% 10%;            /* #0a0f2e near-black navy */
+
+  /* Primary: searing bright orange — CTAs, active states, urgency */
+  --primary: 24 100% 52%;               /* #ff6914 vivid orange */
+  --primary-foreground: 0 0% 100%;      /* White on orange */
+
+  /* Secondary: light lavender surface */
+  --secondary: 262 55% 93%;             /* #ede8fc light lavender */
+  --secondary-foreground: 262 70% 18%;  /* deep purple text */
+
+  /* Muted: very light blue-gray */
+  --muted: 220 28% 92%;                 /* #e5eaf6 light blue-gray */
+  --muted-foreground: 220 22% 42%;      /* mid blue-gray text */
+
+  /* Accent: electric lime green */
+  --accent: 82 100% 40%;               /* slightly darker lime for contrast */
+  --accent-foreground: 0 0% 0%;         /* Black on lime */
+
+  /* Cards: white */
+  --card: 0 0% 100%;                    /* pure white */
+  --card-foreground: 226 50% 10%;       /* dark navy */
+  --card-border: 220 28% 84%;           /* light border */
+
+  /* Popovers */
+  --popover: 0 0% 100%;
+  --popover-foreground: 226 50% 10%;
+  --popover-border: 220 28% 84%;
+
+  /* Destructive: vivid red */
+  --destructive: 0 85% 55%;
+  --destructive-foreground: 0 0% 100%;
+  --destructive-border: 0 85% 40%;
+
+  /* Borders & inputs */
+  --border: 220 22% 80%;               /* light blue-gray border */
+  --input: 220 28% 95%;                 /* very light input bg */
+  --ring: 24 100% 52%;                 /* orange focus ring */
+
+  /* Radius */
+  --radius: 0.25rem;
+
+  /* Custom semantic tokens */
+  --gold: 24 100% 52%;                 /* orange */
+  --gold-light: 24 100% 65%;           /* light orange */
+  --crimson: 0 85% 55%;
+  --parchment: 220 28% 92%;
+  --body-text: 226 45% 15%;            /* dark navy body text */
+
+  /* Chart colours */
+  --chart-1: 24 100% 52%;              /* orange */
+  --chart-2: 82 100% 32%;              /* darker lime (readable on white) */
+  --chart-3: 270 75% 42%;              /* purple */
+  --chart-4: 200 88% 38%;              /* cyan */
+  --chart-5: 0 85% 50%;               /* red */
+
+  /* Component variant borders */
+  --primary-border: hsl(24 100% 42%);
+  --secondary-border: hsl(262 70% 52%);
+  --muted-border: hsl(220 22% 74%);
+  --accent-border: hsl(82 100% 28%);
+
+  /* Sidebar */
+  --sidebar: 222 28% 95%;
+  --sidebar-foreground: 226 50% 10%;
+  --sidebar-border: 220 22% 80%;
+  --sidebar-ring: 24 100% 52%;
+  --sidebar-primary: 24 100% 52%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 220 28% 90%;
+  --sidebar-accent-foreground: 226 50% 10%;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6fc;
+    color: #0a0f2e;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Selection: orange highlight */
+  ::selection {
+    background: rgba(255, 105, 20, 0.25);
+    color: #0a0f2e;
+  }
+
+  /* Headings: deep royal purple — authority on white */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+    color: #1a0e4f;
+    letter-spacing: -0.02em;
+  }
+
+  /* Plain links: deep purple — readable on white, legal-academic feel */
+  a:not([class]) {
+    color: #5b21b6;
+    text-decoration: underline;
+    text-decoration-color: rgba(91, 33, 182, 0.35);
+    transition: color 0.2s, text-decoration-color 0.2s;
+  }
+  a:not([class]):hover {
+    color: #7c3aed;
+    text-decoration-color: rgba(124, 58, 237, 0.6);
+  }
+
+  /* Scrollbar: light track */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #e8edf8; }
+  ::-webkit-scrollbar-thumb { background: #4c2d8a; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #ff6914; }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   AMBER → ORANGE REMAP — kills earth tones site-wide
+   All amber Tailwind utilities → searing orange
+════════════════════════════════════════════════════════════════════ */
+.text-amber-50,  .text-yellow-50  { color: #fff4e8 !important; }
+.text-amber-100, .text-yellow-100 { color: #ffddb8 !important; }
+.text-amber-200, .text-yellow-200 { color: #ffb87a !important; }
+.text-amber-300, .text-yellow-300 { color: #ff9540 !important; }
+.text-amber-400, .text-yellow-400 { color: #ff7c2a !important; }
+.text-amber-500, .text-yellow-500 { color: #ff6914 !important; }
+.text-amber-600, .text-yellow-600 { color: #e55a0a !important; }
+.text-amber-700, .text-yellow-700 { color: #c44d08 !important; }
+.text-amber-800, .text-yellow-800 { color: #9a3d06 !important; }
+.text-amber-900, .text-yellow-900 { color: #7a3005 !important; }
+.text-amber-950, .text-yellow-950 { color: #5a2304 !important; }
+
+/* Border amber → orange */
+.border-amber-100 { border-color: #ffddb8 !important; }
+.border-amber-200 { border-color: #ffb87a !important; }
+.border-amber-300 { border-color: #ff9540 !important; }
+.border-amber-400 { border-color: #ff7c2a !important; }
+.border-amber-500 { border-color: #ff6914 !important; }
+.border-amber-600 { border-color: #e55a0a !important; }
+.border-amber-700 { border-color: #c44d08 !important; }
+.border-amber-800 { border-color: #9a3d06 !important; }
+.border-amber-900 { border-color: #7a3005 !important; }
+
+/* Background amber → royal purple dark panels (contrast sections) */
+.bg-amber-950, .bg-yellow-950 { background-color: #14093a !important; }
+.bg-amber-900, .bg-yellow-900 { background-color: #1a0e4f !important; }
+.bg-amber-800, .bg-yellow-800 { background-color: #251568 !important; }
+.bg-amber-700, .bg-yellow-700 { background-color: #3b208a !important; }
+.bg-amber-500, .bg-yellow-500 { background-color: #ff6914 !important; }
+.bg-amber-400, .bg-yellow-400 { background-color: #ff7c2a !important; }
+
+/* Amber opacity variants */
+.bg-amber-500\/10  { background-color: rgba(255,105,20,0.10) !important; }
+.bg-amber-500\/20  { background-color: rgba(255,105,20,0.18) !important; }
+.bg-amber-900\/60  { background-color: rgba(26,14,79,0.60) !important; }
+.bg-amber-950\/80  { background-color: rgba(20,9,58,0.80) !important; }
+
+/* Border amber opacity */
+.border-amber-500\/50 { border-color: rgba(255,105,20,0.50) !important; }
+.border-amber-500\/60 { border-color: rgba(255,105,20,0.60) !important; }
+.border-amber-600\/50 { border-color: rgba(229,90,10,0.50) !important; }
+.border-amber-900\/40 { border-color: rgba(26,14,79,0.40) !important; }
+
+/* Gold inline custom property → orange */
+[style*="color: #b45309"], [style*="color:#b45309"],
+[style*="color: #d97706"], [style*="color:#d97706"],
+[style*="color: #f59e0b"], [style*="color:#f59e0b"] {
+  color: #ff6914 !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   AMBER/DARK BACKGROUNDS → ROYAL PURPLE PANELS
+════════════════════════════════════════════════════════════════════ */
+[style*="background: #0d0800"],
+[style*="background:#0d0800"],
+[style*="background-color: #0d0800"] { background: #1a0e4f !important; }
+
+[style*="background: #1f1000"],
+[style*="background: #1a0e00"],
+[style*="background: #0d0500"] { background: #1e125a !important; }
+
+/* Explicit light/white backgrounds → stay light */
+.bg-background { background-color: #f4f6fc !important; }
+.bg-white       { background-color: #ffffff !important; color: #0a0f2e !important; }
+.bg-slate-50    { background-color: #f7f9ff !important; }
+.bg-gray-50     { background-color: #f6f8fd !important; }
+.bg-zinc-50     { background-color: #f6f8fc !important; }
+
+/* Headings on light backgrounds → deep royal purple */
+.bg-white h1, .bg-white h2, .bg-white h3,
+.bg-background h1, .bg-background h2, .bg-background h3 {
+  color: #1a0e4f !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   PURPLE LINKS — on light backgrounds, purple reads clearly
+════════════════════════════════════════════════════════════════════ */
+.text-amber-700.underline, a.text-amber-700,
+a.text-amber-600, a.text-amber-500 {
+  color: #5b21b6 !important;
+  text-decoration-color: rgba(91,33,182,0.35) !important;
+}
+a.text-amber-700:hover, a.text-amber-600:hover {
+  color: #7c3aed !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   ANIMATIONS — urgent pulse, glow, shimmer, flash
+════════════════════════════════════════════════════════════════════ */
+
+/* -- DONATE PULSE → orange */
+@keyframes donate-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 105, 20, 0.6); }
+  50%       { box-shadow: 0 0 0 12px rgba(255, 105, 20, 0); }
+}
+.donate-pulse {
+  animation: donate-pulse 2s ease-in-out infinite;
+}
+
+/* -- URGENT PULSE — red-orange glow for critical alerts */
+@keyframes urgent-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255, 60, 0, 0.8);
+    text-shadow: 0 0 8px rgba(255, 80, 0, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(255, 60, 0, 0);
+    text-shadow: 0 0 20px rgba(255, 80, 0, 0.9), 0 0 40px rgba(255, 80, 0, 0.4);
+  }
+}
+.urgent-pulse {
+  animation: urgent-pulse 1.8s ease-in-out infinite;
+}
+
+/* -- TEXT PULSE for inline urgent words */
+@keyframes text-urgent-pulse {
+  0%, 100% { opacity: 1; text-shadow: 0 0 6px rgba(255,80,0,0.5); }
+  50%       { opacity: 0.85; text-shadow: 0 0 18px rgba(255,80,0,1), 0 0 35px rgba(255,80,0,0.5); }
+}
+.text-urgent-pulse {
+  animation: text-urgent-pulse 1.5s ease-in-out infinite;
+}
+
+/* -- COURT COUNTDOWN PULSE — purple urgency */
+@keyframes court-pulse {
+  0%, 100% { text-shadow: 0 0 6px rgba(124,58,237,0.5); opacity: 1; }
+  50%       { text-shadow: 0 0 20px rgba(124,58,237,1), 0 0 40px rgba(124,58,237,0.4); opacity: 0.9; }
+}
+.court-pulse {
+  animation: court-pulse 2s ease-in-out infinite;
+}
+
+/* -- RECKONING PULSE — orange glow for Reckoning nav/banner */
+@keyframes reckoning-pulse {
+  0%, 100% { text-shadow: 0 0 8px rgba(255,105,20,0.6); box-shadow: 0 0 8px rgba(255,105,20,0.2); opacity: 1; }
+  50%       { text-shadow: 0 0 24px rgba(255,105,20,1), 0 0 48px rgba(255,105,20,0.5); box-shadow: 0 0 20px rgba(255,105,20,0.35), 0 0 40px rgba(255,105,20,0.15); opacity: 0.92; }
+}
+.reckoning-pulse {
+  animation: reckoning-pulse 2.2s ease-in-out infinite;
+}
+
+/* -- LIME GLOW — for stats, download counters, significant numbers */
+@keyframes lime-glow {
+  0%, 100% { text-shadow: 0 0 10px rgba(114, 227, 0, 0.4); }
+  50%       { text-shadow: 0 0 25px rgba(114, 227, 0, 0.9), 0 0 50px rgba(114, 227, 0, 0.3); }
+}
+.lime-glow {
+  animation: lime-glow 2.5s ease-in-out infinite;
+}
+
+/* -- ORANGE SHIMMER — hero accent headings */
+@keyframes orange-shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.orange-shimmer {
+  background: linear-gradient(90deg, #ff6914 20%, #ffb347 50%, #ff6914 80%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: orange-shimmer 3s linear infinite;
+}
+
+/* -- PURPLE SHIMMER — sacred/prophetic headings */
+@keyframes purple-shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.purple-shimmer {
+  background: linear-gradient(90deg, #7c3aed 20%, #c084fc 50%, #7c3aed 80%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: purple-shimmer 3s linear infinite;
+}
+
+/* -- HOLY SHIMMER (backwards compat) — orange */
+@keyframes holy-shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.holy-shimmer {
+  background: linear-gradient(90deg, #ff6914 20%, #ffb347 50%, #ff6914 80%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: holy-shimmer 3s linear infinite;
+}
+
+/* -- GOLDEN GLOW (backwards compat) → orange glow */
+.golden-glow {
+  text-shadow: 0 0 30px rgba(255, 105, 20, 0.5), 0 0 60px rgba(255, 105, 20, 0.2);
+}
+
+/* -- BORDER PULSE — for critical containers */
+@keyframes border-pulse-orange {
+  0%, 100% { border-color: rgba(255,105,20,0.5); box-shadow: 0 0 0 0 rgba(255,105,20,0.3); }
+  50%       { border-color: rgba(255,105,20,1);   box-shadow: 0 0 20px rgba(255,105,20,0.4); }
+}
+.border-pulse-orange {
+  animation: border-pulse-orange 2s ease-in-out infinite;
+}
+
+/* -- FLASH ALERT — for SOS / emergency banner elements */
+@keyframes flash-alert {
+  0%, 90%, 100% { opacity: 1; }
+  95%            { opacity: 0.6; }
+}
+.flash-alert {
+  animation: flash-alert 2s ease-in-out infinite;
+}
+
+/* -- TICKER SCROLL */
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   GLOBAL CONTRAST — dark backgrounds always get white prose
+════════════════════════════════════════════════════════════════════ */
+.bg-zinc-800 p,  .bg-zinc-800 li,  .bg-zinc-800 blockquote,
+.bg-zinc-900 p,  .bg-zinc-900 li,  .bg-zinc-900 blockquote,
+.bg-zinc-950 p,  .bg-zinc-950 li,  .bg-zinc-950 blockquote,
+.bg-black    p,  .bg-black    li,  .bg-black    blockquote,
+.bg-slate-800 p, .bg-slate-800 li, .bg-slate-800 blockquote,
+.bg-slate-900 p, .bg-slate-900 li, .bg-slate-900 blockquote,
+.bg-slate-950 p, .bg-slate-950 li, .bg-slate-950 blockquote,
+.bg-neutral-900 p, .bg-neutral-900 li, .bg-neutral-900 blockquote,
+.bg-neutral-950 p, .bg-neutral-950 li, .bg-neutral-950 blockquote { color: #e2e8f0 !important; }
+
+/* Royal purple panels also need white prose */
+.bg-amber-950 p, .bg-amber-950 li, .bg-amber-950 blockquote,
+.bg-amber-900 p, .bg-amber-900 li, .bg-amber-900 blockquote,
+.bg-amber-800 p, .bg-amber-800 li, .bg-amber-800 blockquote { color: #e2e8f0 !important; }
+
+.dark-prose p, .dark-prose li, .dark-prose blockquote { color: #e2e8f0 !important; }
+
+/* Amber/orange italic paragraphs — keep orange/white where on dark panels */
+p.italic.text-amber-100, p.italic.text-amber-200,
+p.italic.text-amber-300, p.italic.text-amber-400, p.italic.text-amber-500,
+p.italic.text-yellow-200, p.italic.text-yellow-300, p.italic.text-yellow-400,
+p.italic.text-orange-200, p.italic.text-orange-300, p.italic.text-orange-400 { color: #e2e8f0 !important; }
+
+p.leading-relaxed.text-amber-200, p.leading-relaxed.text-amber-300, p.leading-relaxed.text-amber-400,
+p.leading-relaxed.text-yellow-200, p.leading-relaxed.text-yellow-300, p.leading-relaxed.text-yellow-400,
+p.leading-relaxed.text-orange-200, p.leading-relaxed.text-orange-300, p.leading-relaxed.text-orange-400 { color: #e2e8f0 !important; }
+
+blockquote.text-amber-100, blockquote.text-amber-200, blockquote.text-amber-300, blockquote.text-amber-400,
+blockquote.text-yellow-200, blockquote.text-yellow-300, blockquote.text-orange-200, blockquote.text-orange-300,
+blockquote.italic { color: #e2e8f0 !important; }
+
+/* Document cover images in stacked sections */
+.md\:col-span-2 > a > img,
+.md\:col-span-2 > a.w-full > img {
+  max-height: 52vh;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   HARDCODED DARK HEX BACKGROUNDS → ROYAL PURPLE PANELS
+   Handles bg-[#...] inline hex values used throughout component files
+════════════════════════════════════════════════════════════════════ */
+
+/* Near-black → deep royal purple */
+.bg-\[\#0a0500\]  { background-color: #14093a !important; }
+.bg-\[\#0d0800\]  { background-color: #14093a !important; }
+.bg-\[\#1a0e00\]  { background-color: #1a0e4f !important; }
+.bg-\[\#1f1000\]  { background-color: #1a0e4f !important; }
+.bg-\[\#0d0500\]  { background-color: #14093a !important; }
+.bg-\[\#1a2744\]  { background-color: #0d1f5e !important; }  /* royal blue */
+
+/* Red urgent sections → deep royal purple */
+.bg-red-950  { background-color: #14093a !important; }
+.bg-red-900  { background-color: #1a0e4f !important; }
+.bg-red-800  { background-color: #251568 !important; }
+
+/* Red borders → purple */
+.border-red-600  { border-color: rgba(124,58,237,0.7) !important; }
+.border-red-700  { border-color: rgba(124,58,237,0.5) !important; }
+.border-red-800  { border-color: rgba(124,58,237,0.35) !important; }
+.border-red-900  { border-color: rgba(124,58,237,0.25) !important; }
+.border-red-500  { border-color: rgba(124,58,237,0.8) !important; }
+
+/* Red text → orange for urgency */
+.text-red-400  { color: #ff6914 !important; }
+.text-red-300  { color: #ff8040 !important; }
+.text-red-200  { color: rgba(255,160,100,0.9) !important; }
+.text-red-500  { color: #ff6914 !important; }
+.text-red-600  { color: #e55a0a !important; }
+
+/* Red backgrounds (buttons, badges) → orange */
+.bg-red-600, .bg-red-500 { background-color: #ff6914 !important; }
+
+/* Red opacity variants */
+.border-red-600\/50 { border-color: rgba(124,58,237,0.5) !important; }
+.border-red-600\/60 { border-color: rgba(124,58,237,0.6) !important; }
+.border-red-700\/40 { border-color: rgba(124,58,237,0.4) !important; }
+.border-red-800\/50 { border-color: rgba(124,58,237,0.3) !important; }
+.border-red-700\/60 { border-color: rgba(124,58,237,0.45) !important; }
+.bg-red-950\/40 { background-color: rgba(20,9,58,0.4) !important; }
+.bg-red-950\/10 { background-color: rgba(20,9,58,0.1) !important; }
+.shadow-red-900\/40 { --tw-shadow-color: rgba(60,0,140,0.4); }
+.text-red-100  { color: rgba(220,200,255,0.9) !important; }
+
+/* Amber-950 opacity badge backgrounds → royal purple */
+.bg-amber-950\/80 { background-color: rgba(20,9,58,0.8) !important; }
+.bg-amber-950\/70 { background-color: rgba(20,9,58,0.7) !important; }
+.bg-amber-950\/60 { background-color: rgba(20,9,58,0.6) !important; }
+.bg-amber-950\/40 { background-color: rgba(20,9,58,0.4) !important; }
+.bg-amber-950\/30 { background-color: rgba(20,9,58,0.3) !important; }
+.bg-amber-950\/20 { background-color: rgba(20,9,58,0.2) !important; }
+.bg-amber-950\/10 { background-color: rgba(20,9,58,0.1) !important; }
+.bg-amber-800\/80 { background-color: rgba(37,21,104,0.7) !important; }
+
+/* Border amber-950 opacity */
+.border-amber-800\/30 { border-color: rgba(124,58,237,0.2) !important; }
+.border-amber-800\/40 { border-color: rgba(124,58,237,0.25) !important; }
+.border-amber-700\/40 { border-color: rgba(124,58,237,0.3) !important; }
+
+/* Amber button BG → orange */
+.bg-amber-600 { background-color: #ff6914 !important; }
+.hover\:bg-amber-500:hover { background-color: #ff8040 !important; }
+.hover\:bg-amber-400:hover { background-color: #ff9050 !important; }
+.hover\:bg-amber-800\/80:hover { background-color: rgba(37,21,104,0.6) !important; }
+.hover\:bg-amber-900\/60:hover { background-color: rgba(26,14,79,0.6) !important; }
+
+/* Purple glows for the now-purple urgent sections */
+.shadow-red-900\/40 { box-shadow: 0 10px 30px rgba(60,0,140,0.3) !important; }
+
+/* ════════════════════════════════════════════════════════════════════
+   PRINT
+════════════════════════════════════════════════════════════════════ */
+@media print {
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  nav,
+  [data-testid="floating-donate-widget"],
+  [data-testid="chatbot-button"] { display: none !important; }
+  table { border-collapse: collapse; width: 100%; font-size: 10pt; }
+  th, td { border: 1px solid rgba(255, 105, 20, 0.3); padding: 4px 8px; text-align: left; }
+  tr { page-break-inside: avoid; }
+  h1 { font-size: 18pt; }
+  h3 { font-size: 12pt; }
+  a { text-decoration: none; }
+}

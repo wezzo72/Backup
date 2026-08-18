@@ -1,0 +1,42 @@
+# Chat session attachments — uploaded during development, not part of the app
+attached_assets/
+
+# Replit agent task files, skills, screenshots, logs — not needed at runtime
+.local/
+
+# Git history — 25 GB of PDF binary blobs committed over time; never needed at runtime
+.git/
+
+# GitHub Pages static build — pushed to GitHub separately, never needed in production
+dist/ghpages/
+
+# node_modules is excluded from the repl layer snapshot entirely.
+# The server bundle (dist/index.cjs) is fully self-contained — all runtime
+# dependencies are bundled by esbuild during the build step.
+# Excluding it prevents closed-pipe errors caused by the dev server holding
+# file handles open inside node_modules/ while the deployer snapshots the repl.
+node_modules/
+
+# Large static asset directories — excluded to stay under the 8 GiB image limit.
+# In production the server redirects these requests to the GitHub Pages mirror:
+#   https://drbarrandodger.github.io/barran-dodger-archive/
+# In dev they are served locally as normal (directories exist on disk).
+client/public/documents/
+client/public/evidence-images/
+client/public/audio/
+client/public/images/
+client/public/covers/
+client/public/evidence/
+client/public/forensic-analyses/
+
+# Pre-built ZIP archives — too large for the 8 GiB repl layer limit.
+# In production, ZIP download routes redirect to GitHub Releases assets instead.
+client/public/zips/
+
+# Source image assets — Vite compiles these into dist/public/assets/ during the
+# build step; the compiled copies in dist/public/ serve production. Keeping the
+# raw sources in the repl layer doubles the image data (~524 MB) for no benefit.
+client/src/assets/images/
+
+# Video files — served via redirect to GitHub Pages in production.
+client/public/video/

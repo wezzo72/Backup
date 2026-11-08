@@ -1,0 +1,70 @@
+
+name: Free Bitcoin timestamp
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/ots-stamp.yml
+
+permissions:
+  contents: read
+
+jobs:
+  timestamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit archive fingerprint to free calendars
+        run: |
+          python - <<'PY'
+          import urllib.request
+          from pathlib import Path
+
+          digest = bytes.fromhex(
+              "392c269aea315972d004ea005d343314ebd4ffb6004d03a9e3bf5050d161886b"
+          )
+
+          calendars = [
+              "https://alice.btc.calendar.opentimestamps.org/digest",
+              "https://bob.btc.calendar.opentimestamps.org/digest",
+              "https://finney.calendar.eternitywall.com/digest",
+              "https://ots.btc.catallaxy.com/digest",
+          ]
+
+          errors = []
+          for url in calendars:
+              try:
+                  request = urllib.request.Request(
+                      url,
+                      data=digest,
+                      method="POST",
+                      headers={"Content-Type": "application/octet-stream"}
+                  )
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      proof = response.read()
+
+                  if proof:
+                      Path("archive.zip.ots").write_bytes(proof)
+                      Path("submission.txt").write_text(
+                          "SHA-256: " + digest.hex() +
+                          "\nCalendar: " + url + "\n"
+                      )
+                      print("TIMESTAMP SUBMITTED: " + url)
+                      break
+                  errors.append(url + ": empty response")
+              except Exception as error:
+                  errors.append(url + ": " + str(error))
+          else:
+              Path("calendar-errors.txt").write_text("\n".join(errors))
+              raise SystemExit("All calendar submissions failed")
+
+          PY
+
+      - name: Save timestamp proof
+        uses: actions/upload-artifact@v4
+        with:
+          name: OpenTimestamps-proof
+          path: |
+            archive.zip.ots
+            submission.txt
+          retention-days: 90

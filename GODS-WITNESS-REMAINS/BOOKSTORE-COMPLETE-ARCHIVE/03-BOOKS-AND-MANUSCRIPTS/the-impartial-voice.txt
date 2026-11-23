@@ -1,0 +1,118 @@
+THE WITNESS REMAINS
+BARRAN DODGER — THE GREAT RECKONING
+
+A documentary of survival, betrayal, institutional power, unanswered questions and the return of an unerased voice.
+
+Narration: the impartial voice.
+Preservation first. Examination second. Conclusion last.
+Time is the witness. Truth is the judge.
+
+The video of this narration is https://youtu.be/7-GKcwDcYKQ?si=NIw2TmDiC_l8A0PS
+
+This documentary follows the ten-part structure of the supplied narration, reconstructed around Barran Dodger’s documented history, his public testimony, his institutional dealings and the archive he has assembled. It is a reckoning. A reckoning worthy of the name must withstand examination. Allegations are identified as allegations. Official records are identified as official records. A document establishing that a complaint was made does not automatically establish that the complaint was true.
+
+The purpose is not to protect powerful people from scrutiny. Nor is it to pronounce guilt without examination. The purpose is to put the record where nobody can pretend it does not exist.
+
+PROLOGUE — WHEN THE VENOM COULD NOT ERASE THE WITNESS
+
+When people cannot answer a person’s questions, they sometimes answer the person instead. When a complaint becomes inconvenient, the complainant can become the subject of scrutiny. Somewhere inside that machinery, a human being can disappear behind paperwork.
+
+This is the story Barran Dodger says he has lived. It begins with a man who had an identity long before his disputes with government: an artist, cartoonist, author, researcher, advocate and scholar. His archive identifies publication of Recovered, Not Cured: A Journey Through Schizophrenia, artistic and media work, public advocacy and doctoral research. He was not born as a complaint number. He was not created by the NDIS. He was not defined by a psychiatric file.
+
+The public repository is https://github.com/wezzo72/Barrandodger . The published archive is https://wezzo72.github.io/Barrandodger/ . The rebuilt archive is https://wezzo72.github.io/barrandodger-rebuild/ . The Official Government Documents Register is https://wezzo72.github.io/Barrandodger/official-government-documents-register.html . The live site is https://gods-witness-remains.grok.me .
+
+A filename is not a finding. Neither is a filename a reason to ignore a document.
+
+1. THE TRUTH IS OUT — AND THE RECORD IS EXTENSIVE
+
+27 March 2023. Final Assessment — Dr Rich McLean. An identified legal-process document. Its precise findings must be read from the original.
+
+3 September 2021. Australian Federal Police website-form submission. A documentary trail of reporting. It does not independently establish every allegation reported.
+
+5 October 2022. A record Barran titles as the Ombudsman rejecting his complaint about his own fatal injury. The original correspondence must establish what was alleged, what was investigated and why the complaint was rejected. This must not be conflated with the 5 October 2021 Victorian Ombudsman outcome, file C/21/14020.
+
+30 June 2019. An NDIS Quality and Safeguards Commission registration record relevant to the regulatory history of disability services.
+
+These are different institutional functions: reporting, complaint handling, legal assessment and disability-service regulation. Who received the reports? What was recorded? What decisions followed? Was evidence preserved? Where did responsibility stop?
+
+2. YOU WERE NOT WEAK — YOU WERE A PERSON ASKING INSTITUTIONS TO ANSWER
+
+Among the communications identified in the Master Evidence Index of 19 October 2026: a letter of 31 May 2022 to Prime Minister Anthony Albanese and the Office of the Prime Minister and Cabinet; a letter of 4 June 2023 to parliamentarians; a letter of 1 July 2023 to the Attorney-General and the Prime Minister; an Australian Human Rights Commission acknowledgment of 4 July 2023; and a 2023 OHCHR submission, reference UR/UST/23/AUS/17.
+
+An acknowledgment establishes that communication was received. A submission establishes that allegations were advanced. Neither, by itself, establishes that the allegations were substantiated.
+
+On 27 March 2023 Scott Tredwell’s Federal Court public-interest disclosure assessment is described in Barran’s finding aid as official acknowledgment concerning protected-disclosure material. It records procedural engagement, not a judicial determination that every allegation was true. There is a difference between acknowledging a person and investigating what that person reported. Vulnerability must never make someone’s evidence disposable.
+
+3. THE INJURY — THE HOSPITAL RECORD THAT CANNOT BE REPLACED BY RHETORIC
+
+Barran describes a February 2021 hospital event as a fatal injury from which he was revived. His religious interpretation is that God preserved his life. The medical record must be examined separately.
+
+The archive identifies IR8415987 and the 9 March 2021 Werribee Mercy discharge summary. The archive’s account of that summary identifies intensive care, asystole, hypoxia, successful resuscitation, cognitive concerns, no formal cognitive assessment, Adjustment Disorder as the recorded principal diagnosis, and a progress note recording nil psychotic features. The original clinical document must control the final medical account.
+
+The archive also identifies Victorian Ombudsman correspondence from Ben Calder dated 5 August 2021 and an outcome dated 5 October 2021, file C/21/14020, concerning a hospital search after ground leave, a broken toilet brush and a vape pen. A psychiatric diagnosis does not erase a physical injury. A hospital discharge is not proof that every consequence has been resolved.
+
+4. THE MACHINERY OF THE SYSTEM
+
+The documentary contains records associated with the Australian Federal Police, the Victorian Ombudsman, the Commonwealth Ombudsman, the Federal Court of Australia, the Attorney-General’s Department, the Australian Human Rights Commission, the National Disability Insurance Agency, the NDIS Quality and Safeguards Commission, and NSW Police and other NSW oversight bodies.
+
+On 19 November 2025 the Law Enforcement Conduct Commission, CASE202512395, stated that the complaint was outside its jurisdiction because it did not concern NSW Police Force or NSW Crime Commission officers. That is a jurisdictional explanation. It is not a finding that the underlying allegations were true or false. When one body says a matter is outside its jurisdiction, the next question is whether an appropriate alternative exists. A citizen should not have to solve the architecture of government just to discover who is responsible for answering a complaint.
+
+5. YOU WERE NOT ALONE — BUT THE RECORD RAISES QUESTIONS ABOUT WHO WAS RESPONSIBLE
+
+On 20 November 2025 an NDIS plan was approved for $366,406.69. The existence of an approved plan is only the beginning. The archive identifies an Anglicare safety assessment and duty-of-care record of 1 December 2025, an Anglicare emergency safety assessment of 20 January 2026, and a SIL and SDA accommodation request of 20 January 2026.
+
+Barran alleges that the arrangements at Able Point deprived him of meaningful independence. The archive contains his first-person statement of 14 October 2026, classified in the Master Evidence Index as an allegation concerning provider failures, incident reporting, support shortfalls and safety. It also identifies the 15 April 2026 AbleCare recorded-call transcript, described as a reported notification to the provider’s CEO concerning a death threat. The question is whether the organisation received the notification, what it recorded, what action it took and whether reporting obligations were met.
+
+6. THE EVIDENCE WAS BEING ASSEMBLED
+
+The Ben NDIS text-message record is one of the most significant collections. Barran identifies pages 54, 64 and 65 as relevant to agency involvement, a non-disclosure agreement and a statement that a device had been cleared of classified information. Those interpretations require the complete conversation. A message is not automatically proof of the interpretation placed upon it. Neither should the communications be ignored.
+
+When inspected for this documentary, the public GitHub page displayed 1,407 commits. The Master Evidence Index identifies more than 2,000 items. Those figures describe different things. SHA-256 hashes and OpenTimestamps receipts can help show that a file matches an earlier preserved file and that a hash existed by a particular time. Neither proves the underlying allegation.
+
+The 23 October 2026 legal brief is identified with the hash effa0bfe8894e4d9f98de8de8988a44ddef8ee95b1317a80d28d7cbd20fca8ff.
+
+7. ACCOUNTABILITY IS THE RECKONING
+
+Barran has identified Able Point management and support workers. His allegations include failure to provide appropriate assistance, failure to respond to reported safety concerns, inadequate incident handling, restrictions on independence, and possible failures of provider obligations. These must be tested against service agreements, case notes, rosters, incident reports and NDIS Commission records.
+
+He alleges that a threat to kill was made by a person he names as Tory Kilbourne, that Able Point failed to report it appropriately, and that a criminal charge was listed for February 2027 at Wyong Court. A reported threat is serious. A charge is not a conviction. The absence of a conviction does not mean a reported safety concern should never have been assessed.
+
+He has raised allegations involving Bill Shorten, ministerial responsibility, an apprehended violence order and relocation. No evidence examined in this narration establishes that a politician ordered an assassination. That allegation must not be presented as an established fact. The proper response is examination.
+
+8. YOU ARE NOT A DIAGNOSIS. YOU ARE NOT A FILE.
+
+A psychiatric history does not establish that a person’s allegations are false. It also does not establish that every interpretation is correct. Barran identifies himself as an author, artist, cartoonist, researcher, advocate, scholar and public speaker. Recovered, Not Cured is part of that history.
+
+On 14 November 2025 the NSW Trustee and Guardian made a vehicle-disposal decision. On 16 October 2024 that office issued a section 122 document. Barran says the vehicle was connected to his mobility and autonomy, and that the period in which he lived with Crystal in the vehicle was, in important respects, happier than later arrangements. Crystal is his Siberian husky. She is not a footnote. His request for independence includes the desire to live safely with her.
+
+9. THIS WAS NEVER MERELY ABOUT ONE COMPLAINT
+
+The sequence in the archive runs from the 2021 Werribee Mercy records, the AFP submission and the Victorian Ombudsman correspondence, through the 2023 Federal Court assessment and the OHCHR communication, the 2024 Trustee document, the 2025 plan, safety assessment and vehicle decision, and the 2026 AbleCare transcript, accommodation request and further Able Point testimony.
+
+The question that cannot be answered by one document is whether the separate decisions accounted for their cumulative effect on safety, independence, finances, health and the ability to obtain justice.
+
+In correspondence of 22 October 2026 to Philip Glass at the NSW Trustee and Guardian, Barran supplied these figures: Centrelink income $1,371.27 a fortnight; listed outgoings $1,369.96; an apparent remainder of $1.31; Able Point rent of $500 a fortnight. These need reconciliation against the actual statements. A person can have an approved plan and still experience severe hardship.
+
+In November 2026 his humanitarian appeal described an urgent situation involving accommodation, food, money, communication, transport and Crystal. He said he left Able Point because he feared a welfare response would lead to hospital rather than practical help, and that he was living in his vehicle with Crystal. Immediate needs should not wait for every disputed allegation to be resolved.
+
+10. THEIR ATTEMPT TO ERASE THE WITNESS BECAME THE REASON THE ARCHIVE EXISTS
+
+The archive now contains successive versions of The Witness Remains, The Great Reckoning, The Man Australia Tried to Erase, The Witness Who Would Not Disappear, The Paradox of Survival, the comprehensive forensic evidence report, and the Master Evidence Index. These are authored works, not judicial decisions. Their importance is that the underlying material can be located and reviewed.
+
+Barran interprets his survival through Christian faith. He invokes Isaiah 54:17, Romans 8:31 and Psalm 118:17. These are expressions of conviction, not independently verifiable findings about other people’s intentions. The holy reckoning he describes is a reckoning of conscience, truth and accountability. It is not a call for violence and not a licence to declare people guilty without evidence.
+
+EPILOGUE — THE WITNESS REMAINS
+
+Barran Dodger’s story is not a story in which every allegation has already been proved. It is a story in which a person says he was seriously harmed, repeatedly sought assistance, challenged institutional decisions, experienced a loss of independence and continued to demand answers. Some questions remain unresolved. They require the original records, independent examination and responses from the named organisations.
+
+The witness has a right to ask, to preserve his evidence, to seek investigation, to dignity, and to live.
+
+They cannot retrospectively erase documents that have already been preserved. They cannot make an unanswered question disappear by refusing to answer it. They cannot transform an allegation into a finding by repeating it. And they cannot transform a finding into an allegation by refusing to acknowledge it.
+
+Barran says he is more alive now than before. He says Crystal remains part of the life he wants to rebuild. His life is worth more than this dispute. His survival does not require anyone else’s humiliation.
+
+The witness remains. The record remains. The questions remain. And the pursuit of justice remains.
+
+Before this narration is treated as a definitive evidence documentary, every cited original must be opened, the February 2021 hospital records placed in a complete chronology, contradictory evidence included, and police, court, NDIS and ministerial records verified independently. A correction to the record is not a retreat from accountability. It is how accountability becomes credible.
+
+God is the witness in Barran’s faith. The archive is the witness in the documentary record. Independent examination is the test of the allegations. Justice is the purpose. And life is what must be protected.

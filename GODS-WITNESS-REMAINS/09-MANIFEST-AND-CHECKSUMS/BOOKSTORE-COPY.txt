@@ -1,0 +1,6 @@
+Bookstore titles in books.json: 413
+Copied with both PDF and EPUB: 413
+Missing a file: 0
+Later publishing-pilots PDF and EPUB files copied as well: 62
+PDF folder count: 447
+EPUB folder count: 441

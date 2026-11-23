@@ -1,0 +1,164 @@
+{
+  "retrieved": "2026-10-26",
+  "account": "https://github.com/wezzo72",
+  "method": "GitHub public API, user repos then recursive git tree on default branch main. Private repositories are not visible without credentials and were not inventoried.",
+  "scope": "Public repositories only. PDF counts are files, not unique works. Checksums, page counts and uniqueness across repositories were not calculated in this pass.",
+  "repositories": [
+    {
+      "name": "Barrandodger",
+      "url": "https://github.com/wezzo72/Barrandodger",
+      "pages": "https://wezzo72.github.io/Barrandodger/",
+      "description": "Web",
+      "branch": "main",
+      "updated": "2026-10-25",
+      "pdf_files": 3896,
+      "html_files": 1879,
+      "status": "tree retrieved, not file-verified"
+    },
+    {
+      "name": "barrandodger-rebuild",
+      "url": "https://github.com/wezzo72/barrandodger-rebuild",
+      "pages": "https://wezzo72.github.io/barrandodger-rebuild/",
+      "description": "Rebuild of barrandodger.com from the 660-page preservation copy",
+      "branch": "main",
+      "updated": "2026-10-25",
+      "pdf_files": 1767,
+      "html_files": 745,
+      "status": "tree retrieved, not file-verified"
+    },
+    {
+      "name": "golden-witness-publishing-house",
+      "url": "https://github.com/wezzo72/golden-witness-publishing-house",
+      "pages": null,
+      "pages_note": "https://wezzo72.github.io/golden-witness-publishing-house/ returned 404 on 26 October 2026",
+      "description": "The Golden Witness publishing house source",
+      "branch": "main",
+      "updated": "2026-10-24",
+      "pdf_files": 0,
+      "html_files": 16,
+      "status": "tree retrieved; no PDFs in tree"
+    },
+    {
+      "name": "-church-of-barran-dodger",
+      "url": "https://github.com/wezzo72/-church-of-barran-dodger",
+      "pages": "https://wezzo72.github.io/-church-of-barran-dodger/",
+      "description": "church-of-barran-dodger",
+      "branch": "main",
+      "updated": "2026-10-24",
+      "pdf_files": 32,
+      "html_files": 54,
+      "status": "tree retrieved, not file-verified"
+    },
+    {
+      "name": "urgent-barran-dodger-appeal",
+      "url": "https://github.com/wezzo72/urgent-barran-dodger-appeal",
+      "pages": null,
+      "description": "urgent-barran-dodger-appeal",
+      "branch": "main",
+      "updated": "2026-10-22",
+      "pdf_files": 0,
+      "html_files": 1,
+      "status": "tree retrieved; no PDFs"
+    },
+    {
+      "name": "Backup",
+      "url": "https://github.com/wezzo72/Backup",
+      "pages": null,
+      "description": "Barrandodger",
+      "branch": "main",
+      "updated": "2026-10-22",
+      "pdf_files": 750,
+      "html_files": 16,
+      "status": "tree retrieved; includes a site backup and attached_assets copies"
+    },
+    {
+      "name": "pdf-archive",
+      "url": "https://github.com/wezzo72/pdf-archive",
+      "pages": null,
+      "description": "Archive of all PDFs from my GitHub repositories",
+      "branch": "main",
+      "updated": "2026-10-22",
+      "pdf_files": 326,
+      "html_files": 1,
+      "status": "tree retrieved; at least one PDF recorded at 0 bytes"
+    },
+    {
+      "name": "barran-dodger-archive",
+      "url": "https://github.com/wezzo72/barran-dodger-archive",
+      "pages": null,
+      "description": "Barran Dodger Legal & Ethical Trust Fund \u2014 public archive",
+      "branch": "main",
+      "updated": "2026-10-20",
+      "pdf_files": 3676,
+      "html_files": null,
+      "status": "tree retrieved; many attached_assets entries are a few hundred bytes or 0 bytes and were not opened"
+    },
+    {
+      "name": "barran-dodger-ministry",
+      "url": "https://github.com/wezzo72/barran-dodger-ministry",
+      "pages": null,
+      "description": "",
+      "branch": "main",
+      "updated": "2026-10-09",
+      "pdf_files": 0,
+      "html_files": 0,
+      "markdown_files": 79,
+      "status": "tree retrieved; no PDFs"
+    },
+    {
+      "name": "Myaidrive",
+      "url": "https://github.com/wezzo72/Myaidrive",
+      "pages": null,
+      "description": "Myaidrive Zip",
+      "branch": "main",
+      "updated": "2026-10-07",
+      "pdf_files": 3326,
+      "html_files": 0,
+      "status": "tree retrieved; dropbox-import path; files not opened"
+    },
+    {
+      "name": "New",
+      "url": "https://github.com/wezzo72/New",
+      "pages": null,
+      "description": "New",
+      "branch": "main",
+      "updated": "2026-09-19",
+      "pdf_files": 0,
+      "status": "tree retrieved; README only"
+    }
+  ],
+  "pdf_file_total_not_unique": 13773,
+  "verified_sites": [
+    "https://wezzo72.github.io/Barrandodger/",
+    "https://wezzo72.github.io/barrandodger-rebuild/",
+    "https://wezzo72.github.io/Barrandodger/official-government-documents-register.html",
+    "https://wezzo72.github.io/-church-of-barran-dodger/",
+    "https://wezzo72.github.io/-church-of-barran-dodger/publishing-house.html",
+    "https://wezzo72.github.io/-church-of-barran-dodger/gospels.html",
+    "https://barran-dodger-finance.base44.app/story"
+  ],
+  "not_verified": [
+    {
+      "url": "https://barrandododger.com/video-forensic-analysis",
+      "result": "name does not resolve"
+    },
+    {
+      "url": "https://barrandodger.com/video-forensic-analysis",
+      "result": "404"
+    },
+    {
+      "url": "https://wezzo72.github.io/golden-witness-publishing-house/",
+      "result": "404"
+    }
+  ],
+  "not_done": [
+    "No SHA-256 checksums calculated.",
+    "No page counts.",
+    "No uniqueness reconciliation across repositories.",
+    "No preservation copy of the PDF corpus was made in this pass.",
+    "No Stripe products, prices, webhooks or private download delivery. No credentials were present, and none were invented.",
+    "No prices in AUD.",
+    "Government records and third-party documents were not marked for sale.",
+    "Private repositories, if any, were not visible."
+  ]
+}

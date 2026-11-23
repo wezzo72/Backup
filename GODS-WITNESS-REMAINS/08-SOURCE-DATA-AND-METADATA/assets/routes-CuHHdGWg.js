@@ -1,0 +1,1 @@
+import{g as e,s as t}from"./index-DNPuc2cV.js";import{n,t as r}from"./mirror-frame-Tcgr2t-8.js";var i=e();function a(){let e=t.useLoaderData();return e?(0,i.jsx)(r,{html:e.html,path:`/`}):(0,i.jsx)(n,{})}export{a as component};

@@ -1,0 +1,1631 @@
+/* Night, gold, ivory. Reading theme. Words are not changed here. */
+html,
+body,
+html body,
+#the-record {
+  background: #0b1220 !important;
+  color: #f4efe4 !important;
+}
+#the-record,
+#the-record-main,
+#the-record-main p,
+#the-record-main li,
+#the-record-main td,
+#the-record-main th,
+#the-record-main blockquote,
+#the-record-main figcaption,
+html body .sos-now,
+html body .sos-now p,
+html body .sos-now li,
+html body nav.page-contents,
+html body nav.page-contents li,
+html body nav.page-contents p {
+  color: #f4efe4 !important;
+  background-color: transparent !important;
+  text-align: left !important;
+  text-indent: 0 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  hyphens: manual !important;
+  -webkit-hyphens: manual !important;
+}
+#the-record-main,
+.archive-chrome {
+  font-family: Verdana, "IBM Plex Sans", sans-serif !important;
+  font-size: 19px !important;
+  line-height: 1.55 !important;
+}
+#the-record-main h1,
+#the-record-main h2,
+#the-record-main h3,
+#the-record-main h4,
+.archive-chrome .archive-kicker {
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  color: #f0d78a !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  line-height: 1.25 !important;
+  margin-top: 1.35rem !important;
+  margin-bottom: 0.55rem !important;
+}
+#the-record a,
+.archive-chrome a {
+  color: #e7c98a !important;
+}
+#the-record a:focus,
+.archive-chrome a:focus,
+button:focus,
+input:focus,
+select:focus {
+  outline: 2px solid #f0d78a !important;
+  outline-offset: 2px !important;
+}
+.archive-chrome {
+  background: #0b1220 !important;
+  color: #f4efe4 !important;
+  padding: 0.75rem 1rem 0.25rem !important;
+}
+.archive-chrome .share-row,
+nav.permanent-tabs,
+nav.main-permanent,
+nav.site-tabs,
+nav.keep-tabs,
+header.edition nav {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.4rem !important;
+}
+.archive-chrome .share-row a,
+nav.permanent-tabs a,
+nav.site-tabs a,
+nav.keep-tabs a,
+header.edition nav a,
+a.house-btn,
+a.door,
+button {
+  border: 1px solid rgba(231, 201, 138, 0.55) !important;
+  border-radius: 999px !important;
+  padding: 0.35rem 0.7rem !important;
+  background: #10182a !important;
+  color: #f0d78a !important;
+  text-decoration: none !important;
+}
+.sos-emergency,
+section.sos-emergency {
+  background: #1a140c !important;
+  color: #f4efe4 !important;
+  border: 1px solid #e7c98a !important;
+  border-radius: 12px !important;
+  padding: 1rem !important;
+  margin: 0.75rem !important;
+}
+.official-letter,
+.editorial-hero,
+article.statement,
+.reckoning-hero {
+  background: #10182a !important;
+  color: #f4efe4 !important;
+}
+img,
+iframe,
+video {
+  max-width: 100% !important;
+  height: auto;
+}
+iframe {
+  height: auto;
+  min-height: 220px;
+  aspect-ratio: 16 / 9;
+}
+#the-record .archive-chrome a.visit-counter,
+#the-record .archive-chrome a.visit-counter span,
+#the-record .archive-chrome a.visit-counter strong {
+  color: #141210 !important;
+  background: #ffffff !important;
+  border: 2px solid #141210 !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#the-record .archive-chrome a.visit-counter {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: baseline !important;
+  gap: 0.45rem !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0 0 0.55rem !important;
+  padding: 0.35rem 0.6rem !important;
+}
+#the-record .archive-chrome a.visit-counter strong {
+  color: #8c2f2f !important;
+  font-size: 1.35rem !important;
+  line-height: 1.1 !important;
+  border: 0 !important;
+  display: inline !important;
+}
+#the-record .archive-chrome a.visit-counter span {
+  border: 0 !important;
+  display: inline !important;
+  font-size: 0.95rem !important;
+}
+nav.keep-tabs {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  gap: 0.4rem !important;
+  margin: 0 0 0.45rem !important;
+  padding: 0 0 0.35rem !important;
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+  background: transparent !important;
+  max-width: 100% !important;
+}
+nav.keep-tabs a {
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+  min-height: 44px !important;
+  touch-action: manipulation;
+}
+#the-record-main .github-inventory {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+}
+#the-record-main .inventory-filters,
+#the-record-main .inventory-downloads,
+#the-record-main .inventory-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+#the-record-main .inventory-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 10rem;
+  flex: 1;
+  color: #f4efe4 !important;
+}
+#the-record-main .inventory-filters input,
+#the-record-main .inventory-filters select {
+  font: 18px/1.4 Verdana, sans-serif;
+  color: #0b1220;
+  background: #f4efe4;
+  border: 1px solid #e7c98a;
+  border-radius: 8px;
+  padding: 0.45rem 0.55rem;
+}
+#the-record-main .inventory-card {
+  border-top: 1px solid rgba(231, 201, 138, 0.35);
+  padding: 0.85rem 0;
+}
+#the-record-main .inventory-card h2 {
+  font-size: 1.15rem !important;
+  margin: 0.2rem 0 0.35rem !important;
+}
+.archive-chrome .saved-again {
+  max-width: 42rem;
+  margin: 0.35rem 0 0.9rem !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+.archive-chrome .saved-again .saved-date,
+.archive-chrome .saved-again p,
+.archive-chrome .saved-again .saved-line,
+.archive-chrome .saved-again .saved-thanks {
+  color: #f4efe4 !important;
+  font-family: Verdana, "IBM Plex Sans", sans-serif !important;
+  font-size: 19px !important;
+  line-height: 1.55 !important;
+  margin: 0.45rem 0 !important;
+  background: transparent !important;
+}
+.archive-chrome .saved-again .saved-date {
+  color: #f0d78a !important;
+  font-size: 0.82rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  margin: 0.2rem 0 0.15rem !important;
+}
+.archive-chrome .saved-again h2 {
+  color: #f0d78a !important;
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  font-size: clamp(1.45rem, 5vw, 2rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  margin: 0.15rem 0 0.45rem !important;
+  text-transform: none !important;
+}
+.archive-chrome .saved-again h3 {
+  color: #f0d78a !important;
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  margin: 1.25rem 0 0.4rem !important;
+  text-transform: none !important;
+}
+.archive-chrome .saved-again .saved-line {
+  font-weight: 700 !important;
+}
+.archive-chrome .saved-again .prophetic-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0.7rem 0 0.85rem;
+  background: #000;
+}
+.archive-chrome .saved-again .prophetic-frame iframe {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  min-height: 0 !important;
+  aspect-ratio: auto !important;
+  border: 0 !important;
+}
+#reckoning-of-the-mother .prophetic-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0.7rem 0 0.85rem;
+  background: #000;
+}
+#reckoning-of-the-mother .prophetic-frame iframe {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+}
+#gospel-of-sovereignty .prophetic-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0.7rem 0 0.85rem;
+  background: #000;
+}
+#gospel-of-sovereignty .prophetic-frame iframe {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+}
+#formal-police-report-18-november-2026 .prophetic-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0.7rem 0 0.85rem;
+  background: #000;
+}
+#formal-police-report-18-november-2026 .prophetic-frame iframe {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+}
+.archive-chrome .saved-again a {
+  color: #e7c98a !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+  text-decoration: underline !important;
+}
+
+#the-record nav.permanent-scroll {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  position: static !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  background: #1b2a4a !important;
+  z-index: auto !important;
+}
+#the-record nav.permanent-scroll > a,
+#the-record a.prophecy-permanent,
+#the-record a.catalogue-permanent,
+#the-record a.gospel-permanent,
+#the-record a.sovereignty-permanent,
+#the-record a.power-permanent,
+#the-record a.dead-permanent,
+#the-record a.record-permanent,
+#the-record a.declaration-permanent {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+  min-width: 11.5rem !important;
+  max-width: 16rem !important;
+}
+#the-record a#book-shop {
+  display: flex !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 300 !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-height: 88px !important;
+  margin: 0 !important;
+  padding: 0.85rem 1rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #e7c98a !important;
+  background-color: #e7c98a !important;
+  color: #1b2a4a !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  font: 900 2rem/1 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.06em !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+}
+#the-record a.prophecy-permanent {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  position: sticky !important;
+  top: 88px !important;
+  z-index: 290 !important;
+  width: 100% !important;
+  min-height: 72px !important;
+  margin: 0 !important;
+  padding: 0.7rem 1rem !important;
+  background: #8b2e2a !important;
+  background-color: #8b2e2a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 3px solid #e7c98a !important;
+  border-radius: 0 !important;
+  font: 700 1.2rem/1.2 Georgia, "Times New Roman", serif !important;
+  letter-spacing: 0 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+}
+#the-record a.prophecy-permanent span {
+  display: block !important;
+  margin: 0 0 0.2rem !important;
+  color: #e7c98a !important;
+  font: 700 0.72rem/1.2 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+}
+#the-record a.prophecy-permanent[aria-current="page"] {
+  background: #1b2a4a !important;
+  background-color: #1b2a4a !important;
+}
+#the-record a.catalogue-permanent {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  position: sticky !important;
+  top: 160px !important;
+  z-index: 280 !important;
+  width: 100% !important;
+  min-height: 68px !important;
+  margin: 0 !important;
+  padding: 0.65rem 1rem !important;
+  background: #1b2a4a !important;
+  background-color: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 3px solid #e7c98a !important;
+  border-radius: 0 !important;
+  font: 700 1.15rem/1.2 Georgia, "Times New Roman", serif !important;
+  letter-spacing: 0 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+}
+#the-record a.catalogue-permanent span {
+  display: block !important;
+  margin: 0 0 0.15rem !important;
+  color: #e7c98a !important;
+  font: 700 0.72rem/1.2 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+}
+#the-record a.catalogue-permanent[aria-current="page"] {
+  background: #8b2e2a !important;
+  background-color: #8b2e2a !important;
+}
+#the-record a.landing-video-link {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-height: 72px !important;
+  margin: 0 !important;
+  padding: 0.8rem 1rem !important;
+  background: #141210 !important;
+  background-color: #141210 !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 3px solid #e7c98a !important;
+  border-radius: 0 !important;
+  font: 700 1.2rem/1.25 Georgia, "Times New Roman", serif !important;
+  text-align: left !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.14em !important;
+  text-transform: none !important;
+}
+#the-record a.landing-video-link span {
+  display: block !important;
+  margin: 0 0 0.2rem !important;
+  color: #e7c98a !important;
+  font: 700 0.72rem/1.2 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+#the-record a.gospel-permanent {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  position: sticky !important;
+  top: 228px !important;
+  z-index: 270 !important;
+  width: 100% !important;
+  min-height: 72px !important;
+  margin: 0 !important;
+  padding: 0.7rem 1rem !important;
+  background: #4a3b2a !important;
+  background-color: #4a3b2a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 3px solid #e7c98a !important;
+  border-radius: 0 !important;
+  font: 700 1.15rem/1.2 Georgia, "Times New Roman", serif !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+}
+#the-record a.gospel-permanent span {
+  display: block !important;
+  margin: 0 0 0.15rem !important;
+  color: #e7c98a !important;
+  font: 700 0.72rem/1.2 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+#the-record a.gospel-permanent[aria-current="page"] {
+  background: #1b2a4a !important;
+  background-color: #1b2a4a !important;
+}
+#the-record a.sovereignty-permanent {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  position: sticky !important;
+  top: 300px !important;
+  z-index: 260 !important;
+  width: 100% !important;
+  min-height: 72px !important;
+  margin: 0 !important;
+  padding: 0.7rem 1rem !important;
+  background: #1b2a4a !important;
+  background-color: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 3px solid #e7c98a !important;
+  border-radius: 0 !important;
+  font: 700 1.15rem/1.2 Georgia, "Times New Roman", serif !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+}
+#the-record a.sovereignty-permanent span {
+  display: block !important;
+  margin: 0 0 0.15rem !important;
+  color: #e7c98a !important;
+  font: 700 0.72rem/1.2 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+#the-record a.sovereignty-permanent[aria-current="page"] {
+  background: #8b2e2a !important;
+  background-color: #8b2e2a !important;
+}
+#the-record a.power-permanent {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  position: sticky !important;
+  top: 372px !important;
+  z-index: 250 !important;
+  width: 100% !important;
+  min-height: 72px !important;
+  margin: 0 !important;
+  padding: 0.7rem 1rem !important;
+  background: #141210 !important;
+  background-color: #141210 !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 3px solid #e7c98a !important;
+  border-radius: 0 !important;
+  font: 700 1.15rem/1.2 Georgia, "Times New Roman", serif !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+}
+#the-record a.power-permanent span {
+  display: block !important;
+  margin: 0 0 0.15rem !important;
+  color: #e7c98a !important;
+  font: 700 0.72rem/1.2 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+}
+#the-record a.power-permanent[aria-current="page"] {
+  background: #1b2a4a !important;
+  background-color: #1b2a4a !important;
+}
+#the-record #the-record-main #book-store,
+#the-record #the-record-main #book-store .book,
+#the-record #the-record-main #book-store .book-copy,
+#the-record #the-record-main #book-store .book-copy p,
+#the-record #the-record-main #book-store .book h2 {
+  background: #f7f1e6 !important;
+  background-color: #f7f1e6 !important;
+  color: #141210 !important;
+  text-align: left !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+#the-record #the-record-main #book-store .book h2 {
+  color: #1b2a4a !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.85rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  margin: 0 0 0.65rem !important;
+}
+#the-record #the-record-main #book-store .book .sub {
+  color: #1a140e !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.2rem !important;
+  line-height: 1.6 !important;
+  margin: 0 0 1rem !important;
+}
+#the-record #the-record-main #book-store .book img {
+  width: 100% !important;
+  height: 46vh !important;
+  max-height: 46vh !important;
+  object-fit: cover !important;
+  background: #1b2a4a !important;
+}
+#the-record #the-record-main #book-store .book .dl a {
+  background: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  border-radius: 0 !important;
+}
+#the-record nav.permanent-scroll,
+#the-record nav.keep-tabs,
+#the-record nav.sitewide-tabs {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  position: static !important;
+  top: auto !important;
+  max-width: 100% !important;
+  z-index: auto !important;
+}
+#the-record nav.permanent-scroll > a,
+#the-record a.prophecy-permanent,
+#the-record a.catalogue-permanent,
+#the-record a.gospel-permanent,
+#the-record a.sovereignty-permanent,
+#the-record a.power-permanent,
+#the-record a.dead-permanent,
+#the-record a.record-permanent,
+#the-record a.declaration-permanent {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+  min-width: 11.5rem !important;
+  max-width: 16rem !important;
+  align-self: stretch !important;
+}
+#the-record a.dead-permanent {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  min-height: 72px !important;
+  margin: 0 !important;
+  padding: 0.7rem 1rem !important;
+  background: #8b2e2a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 3px solid #e7c98a !important;
+  font: 700 1.05rem/1.2 Georgia, "Times New Roman", serif !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+#the-record a.dead-permanent span {
+  display: block !important;
+  margin: 0 0 0.15rem !important;
+  color: #e7c98a !important;
+  font: 700 0.72rem/1.2 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+}
+html,
+body,
+#the-record {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  height: auto !important;
+  max-height: none !important;
+}
+#the-record a#book-shop,
+#the-record a.book-shop,
+#the-record a.visit-counter,
+#the-record a.visit-counter-top,
+#the-record a.prophecy-permanent,
+#the-record a.catalogue-permanent,
+#the-record a.gospel-permanent,
+#the-record a.sovereignty-permanent,
+#the-record a.power-permanent,
+#the-record a.dead-permanent,
+#the-record a.record-permanent,
+#the-record a.declaration-permanent {
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+}
+#the-record nav.permanent-scroll,
+#the-record nav.keep-tabs,
+#the-record nav.sitewide-tabs {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  position: static !important;
+  top: auto !important;
+  z-index: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  max-height: none !important;
+}
+#the-record nav.permanent-scroll > a,
+#the-record nav.keep-tabs a,
+#the-record nav.sitewide-tabs a {
+  position: static !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+  max-width: 16rem !important;
+  white-space: normal !important;
+}
+
+/* Phone reading copy. The night sheet was painting the declaration ivory-on-navy
+   and leaving the film at the browser's tiny iframe size. */
+#the-record a#visit-counter.visit-counter-top {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0.85rem 1rem 0.95rem !important;
+  background: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 6px solid #8b2e2a !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+}
+#the-record a#visit-counter.visit-counter-top .visit-kicker,
+#the-record a#visit-counter.visit-counter-top .visit-line {
+  display: block !important;
+  color: #f6f1e7 !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: 700 0.95rem/1.35 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+#the-record a#visit-counter.visit-counter-top strong {
+  display: block !important;
+  margin: 0.15rem 0 0.2rem !important;
+  color: #e7c98a !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: 900 3.1rem/1 Georgia, "Times New Roman", serif !important;
+}
+#the-record .prophetic-declaration-top a#nuclear-download.nuclear-top {
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+  width: calc(100% + 2rem) !important;
+  max-width: none !important;
+  margin: 0.4rem -1rem 1rem !important;
+  padding: 1rem 1rem 1.05rem !important;
+  background: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+}
+#the-record .prophetic-declaration-top a#nuclear-download.nuclear-top strong {
+  display: block !important;
+  margin: 0.15rem 0 0.35rem !important;
+  color: #e7c98a !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: 900 clamp(1.7rem, 8vw, 2.5rem)/1.02 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.02em !important;
+  text-transform: uppercase !important;
+}
+#the-record .prophetic-declaration-top a#nuclear-download.nuclear-top .nuclear-kicker,
+#the-record .prophetic-declaration-top a#nuclear-download.nuclear-top .nuclear-line {
+  display: block !important;
+  color: #f6f1e7 !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: 700 1rem/1.35 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+#the-record .edition-bar {
+  box-sizing: border-box !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0.85rem 1rem !important;
+  background: #f3eee4 !important;
+  color: #141210 !important;
+  border-bottom: 4px solid #8b2e2a !important;
+  font: 700 1.05rem/1.45 Georgia, "Times New Roman", serif !important;
+}
+#the-record .edition-bar a {
+  color: #8b2e2a !important;
+  background: transparent !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+}
+
+#the-record .gods-name {
+  display: block !important;
+  margin: 0 !important;
+  background: #f3eee4 !important;
+  color: #141210 !important;
+  border-bottom: 8px solid #8b2e2a !important;
+}
+#the-record .gods-name img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+  object-position: center 18% !important;
+}
+@media (min-width: 800px) {
+  #the-record .gods-name img {
+    height: 58vh !important;
+    max-height: 58vh !important;
+  }
+}
+#the-record .gods-name figcaption,
+#the-record .gods-name h1,
+#the-record .gods-name p {
+  color: #141210 !important;
+  background: transparent !important;
+  text-align: left !important;
+}
+#the-record .gods-name figcaption {
+  padding: 0.9rem 1rem 1.15rem !important;
+}
+#the-record .gods-name .gods-name-kicker {
+  margin: 0 !important;
+  color: #6b5424 !important;
+  font: 700 0.78rem/1.3 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+}
+#the-record .gods-name .gods-name-gospel {
+  margin: 0.5rem 0 0 !important;
+  color: #1b2a4a !important;
+  font: 900 clamp(1.35rem, 5.4vw, 1.85rem)/1.25 Georgia, "Times New Roman", serif !important;
+  text-transform: none !important;
+}
+#the-record .gods-name h1 {
+  margin: 0.45rem 0 0.15rem !important;
+  color: #8b2e2a !important;
+  font: 900 clamp(2.4rem, 11vw, 4.2rem)/1.05 Georgia, "Times New Roman", serif !important;
+  text-transform: none !important;
+}
+#the-record .gods-name .gods-name-words {
+  margin: 0.2rem 0 0 !important;
+  color: #141210 !important;
+  font: 900 clamp(1.55rem, 6.5vw, 2.3rem)/1.2 Georgia, "Times New Roman", serif !important;
+}
+#the-record .gods-name .gods-name-words a,
+#the-record .gods-name-terms a {
+  color: #8b2e2a !important;
+  background: transparent !important;
+  font-weight: 900 !important;
+  text-decoration: underline !important;
+  text-transform: none !important;
+}
+#the-record .gods-name-terms {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 0.4rem !important;
+  margin: 0.7rem 0 0 !important;
+}
+#the-record .gods-name-terms a {
+  display: block !important;
+  font: 900 1.2rem/1.3 Georgia, "Times New Roman", serif !important;
+}
+#the-record .gods-name .gods-name-meaning {
+  margin: 0.55rem 0 0 !important;
+  max-width: 40rem !important;
+  color: #141210 !important;
+  font: 400 1.05rem/1.45 Georgia, "Times New Roman", serif !important;
+  text-transform: none !important;
+}
+#the-record .gods-name .gods-name-meaning a {
+  color: #8b2e2a !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+}
+#the-record .gods-name-drop {
+  margin: 0.75rem 0 0 !important;
+  border-top: 2px solid #8b2e2a !important;
+  padding-top: 0.45rem !important;
+  background: transparent !important;
+}
+#the-record .gods-name-drop summary {
+  cursor: pointer !important;
+  color: #8b2e2a !important;
+  font: 900 1.2rem/1.3 Georgia, "Times New Roman", serif !important;
+  text-transform: none !important;
+}
+#the-record .gods-name-drop p,
+#the-record .gods-name-drop a {
+  text-transform: none !important;
+}
+#the-record .gods-name-drop p {
+  margin: 0.55rem 0 0 !important;
+  max-width: 40rem !important;
+  color: #141210 !important;
+  font: 400 1.05rem/1.45 Georgia, "Times New Roman", serif !important;
+}
+#the-record .gods-name-drop a {
+  color: #8b2e2a !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+}
+
+#the-record .prophetic-declaration-top {
+  box-sizing: border-box !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 1.15rem 1rem 1.75rem !important;
+  background: #f3eee4 !important;
+  background-color: #f3eee4 !important;
+  color: #141210 !important;
+  border: 0 !important;
+  border-bottom: 8px solid #8b2e2a !important;
+  border-radius: 0 !important;
+  overflow-x: hidden !important;
+}
+#the-record .prophetic-declaration-top h1,
+#the-record .prophetic-declaration-top h2,
+#the-record .prophetic-declaration-top p,
+#the-record .prophetic-declaration-top li,
+#the-record .prophetic-declaration-top .allegiance,
+#the-record .prophetic-declaration-top .gw-kicker {
+  color: #141210 !important;
+  background: transparent !important;
+  max-width: 100% !important;
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+  text-align: left !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+#the-record .prophetic-declaration-top h1 {
+  margin: 0 0 0.45rem !important;
+  color: #8b2e2a !important;
+  font: 900 clamp(2.05rem, 9vw, 3.3rem)/1.05 Georgia, "Times New Roman", serif !important;
+}
+#the-record .prophetic-declaration-top h2 {
+  margin: 1.15rem 0 0.4rem !important;
+  color: #1b2a4a !important;
+  font: 900 clamp(1.28rem, 5.4vw, 1.75rem)/1.22 Georgia, "Times New Roman", serif !important;
+}
+#the-record .prophetic-declaration-top p,
+#the-record .prophetic-declaration-top li {
+  margin: 0.7rem 0 !important;
+  font: 700 1.15rem/1.55 Georgia, "Times New Roman", serif !important;
+  white-space: pre-wrap !important;
+}
+#the-record .prophetic-declaration-top .allegiance {
+  margin: 0.2rem 0 0.85rem !important;
+  color: #1b2a4a !important;
+  font: 900 clamp(1.4rem, 5.6vw, 1.95rem)/1.22 Georgia, "Times New Roman", serif !important;
+}
+#the-record .prophetic-declaration-top .gw-kicker {
+  margin: 0 0 0.35rem !important;
+  color: #6b5424 !important;
+  font: 700 0.78rem/1.3 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+}
+#the-record .prophetic-declaration-top a {
+  color: #8b2e2a !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.14em !important;
+  overflow-wrap: anywhere !important;
+}
+#the-record .prophetic-declaration-top .crystal-under-heading {
+  margin: 0.7rem -1rem 1rem !important;
+  width: calc(100% + 2rem) !important;
+  max-width: none !important;
+  background: transparent !important;
+}
+#the-record .prophetic-declaration-top .crystal-under-heading img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+#the-record .prophetic-declaration-top .crystal-under-heading figcaption {
+  margin: 0 !important;
+  padding: 0.85rem 1rem 0.2rem !important;
+  color: #1b2a4a !important;
+  background: transparent !important;
+  font: 700 1.12rem/1.5 Georgia, "Times New Roman", serif !important;
+  text-align: left !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+#the-record .prophetic-declaration-top .crystal-under-heading figcaption strong,
+#the-record .prophetic-declaration-top .crystal-under-heading figcaption span {
+  display: block !important;
+  color: #1b2a4a !important;
+  background: transparent !important;
+  margin: 0 0 0.75rem !important;
+  font: 700 1.12rem/1.5 Georgia, "Times New Roman", serif !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+#the-record .prophetic-declaration-top .crystal-under-heading figcaption strong {
+  color: #8b2e2a !important;
+  font: 900 1.35rem/1.2 Georgia, "Times New Roman", serif !important;
+}
+#the-record a.evidence-file-link {
+  color: #e7c98a !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  font: inherit !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.12em !important;
+  overflow-wrap: anywhere !important;
+}
+#evidence-cross-links .evidence-agency-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.45rem !important;
+  margin: 0.4rem 0 1rem !important;
+}
+#evidence-cross-links input {
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  min-height: 44px !important;
+  margin: 0.35rem 0 0.8rem !important;
+  padding: 0.55rem 0.7rem !important;
+  color: #141210 !important;
+  background: #fff !important;
+  border: 1px solid #141210 !important;
+  border-radius: 0 !important;
+  font: 700 1rem/1.3 Verdana, Geneva, sans-serif !important;
+}
+#the-record .after-crystal .prophetic-frame {
+  position: relative !important;
+  display: block !important;
+  width: calc(100% + 2rem) !important;
+  max-width: none !important;
+  margin: 0.85rem -1rem 1rem !important;
+  aspect-ratio: 16 / 9 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  background: #141210 !important;
+  overflow: hidden !important;
+  border-radius: 0 !important;
+}
+#the-record .after-crystal .prophetic-frame iframe {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  aspect-ratio: auto !important;
+  border: 0 !important;
+}
+#the-record .prophetic-declaration-top .prophetic-frame {
+  position: relative !important;
+  display: block !important;
+  width: calc(100% + 2rem) !important;
+  max-width: none !important;
+  margin: 0.85rem -1rem 1rem !important;
+  aspect-ratio: 16 / 9 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  background: #141210 !important;
+  overflow: hidden !important;
+  border-radius: 0 !important;
+}
+#the-record .prophetic-declaration-top .prophetic-frame iframe {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  min-height: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  border: 0 !important;
+  aspect-ratio: auto !important;
+}
+
+#the-record a.publish-declaration,
+#the-record button.publish-declaration {
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 148px !important;
+  margin: 0 !important;
+  padding: 1rem 1.05rem 1.1rem !important;
+  background: #8b2e2a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-bottom: 6px solid #e7c98a !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+}
+#the-record a.publish-declaration strong,
+#the-record button.publish-declaration strong {
+  display: block !important;
+  margin: 0.12rem 0 0.3rem !important;
+  color: #e7c98a !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: 900 clamp(2.4rem, 10vw, 3.4rem)/1 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+}
+#the-record a.publish-declaration .publish-kicker,
+#the-record a.publish-declaration .publish-line,
+#the-record button.publish-declaration .publish-kicker,
+#the-record button.publish-declaration .publish-line {
+  display: block !important;
+  max-width: 40rem !important;
+  color: #f6f1e7 !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: 700 1.05rem/1.35 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+#the-record .prophetic-declaration-top a.publish-declaration,
+#the-record .prophetic-declaration-top button.publish-declaration {
+  width: calc(100% + 2rem) !important;
+  margin: 0 -1rem 1rem !important;
+}
+
+
+
+.chain-shelf{background:#0b1220 !important;color:#f4efe4 !important;padding:0.4rem 0 1.2rem !important;margin:0 !important}
+.chain-shelf h2{color:#f0d78a !important;font-family:Georgia,"Times New Roman",serif !important;font-size:1.7rem !important;margin:0.4rem 0 0.35rem !important}
+.chain-shelf p{color:#f4efe4 !important;margin:0 0 0.8rem !important}
+.chain-shelf a.chain-card{display:block !important;max-width:26rem;margin:0 auto 1.15rem !important;text-decoration:none !important;color:#f4efe4 !important;background:#0b1220 !important}
+.chain-shelf a.chain-card img{width:100% !important;height:auto !important;aspect-ratio:2/3;object-fit:cover;display:block;border:3px solid #f0d78a}
+.chain-shelf a.chain-card span{display:block !important;color:#f4efe4 !important;font:700 1.2rem/1.3 Georgia,"Times New Roman",serif !important;padding:0.55rem 0.1rem 0 !important}
+a.nuclear-under{display:block !important;margin:0.35rem 0.6rem 0.8rem !important;color:#f0d78a !important;background:transparent !important;font:700 1.05rem/1.4 Verdana,sans-serif !important;text-decoration:underline !important;text-underline-offset:0.15em !important}#chosen-today h2,#the-record #chosen-today h2{color:#8c2f2f !important}
+#chosen-today,#the-record #chosen-today,#the-record #chosen-today p{color:#141210 !important;background:#f7f1e6 !important}
+#chosen-today a{color:#8c2f2f !important}
+
+#the-record #book-store .book .dl {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+}
+#the-record #book-store .book .dl a.book-download {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 32px !important;
+  margin: 0 !important;
+  padding: 0 0.65rem !important;
+  background: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  border-radius: 0 !important;
+  font: 700 0.78rem/1 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.04em !important;
+  text-decoration: none !important;
+}
+#the-record #the-record-main #book-store .book .dl a.book-count {
+  display: inline-flex !important;
+  align-items: baseline !important;
+  gap: 0.3rem !important;
+  min-height: 32px !important;
+  margin: 0 !important;
+  padding: 0 0.6rem !important;
+  background: #f7f1e6 !important;
+  color: #1b2a4a !important;
+  border: 1px solid #1b2a4a !important;
+  border-radius: 0 !important;
+  font: 700 0.72rem/1 Verdana, Geneva, sans-serif !important;
+  text-decoration: none !important;
+}
+#the-record #the-record-main #book-store .book .dl a.book-count strong {
+  color: #8b2e2a !important;
+  background: transparent !important;
+  font: 900 1rem/1 Verdana, Geneva, sans-serif !important;
+}
+#the-record #the-record-main #book-store .book .dl a.book-download {
+  display: inline-flex !important;
+  min-height: 32px !important;
+  margin: 0 !important;
+  padding: 0 0.65rem !important;
+  font: 700 0.78rem/1 Verdana, Geneva, sans-serif !important;
+}
+
+#the-record nav.main-top {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  max-height: none !important;
+  position: static !important;
+  background: #1b2a4a !important;
+  border-bottom: 3px solid #e7c98a !important;
+}
+#the-record nav.main-top a {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  min-height: 44px !important;
+  margin: 0 !important;
+  padding: 0 0.85rem !important;
+  background: transparent !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-right: 1px solid #8c7340 !important;
+  border-radius: 0 !important;
+  font: 700 0.92rem/1.2 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0 !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+  white-space: nowrap !important;
+}
+#the-record nav.main-top a.main-about {
+  background: #f3eee4 !important;
+  color: #8b2e2a !important;
+}
+#the-record nav.main-top a[aria-current="page"] {
+  background: #8b2e2a !important;
+  color: #f6f1e7 !important;
+}
+
+#the-record .landing-hold {
+  box-sizing: border-box !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 1rem 1rem 1.15rem !important;
+  background: #f3eee4 !important;
+  color: #141210 !important;
+  border-bottom: 8px solid #8b2e2a !important;
+}
+#the-record .landing-hold h2 {
+  margin: 0 !important;
+  color: #8b2e2a !important;
+  background: transparent !important;
+  font: 900 clamp(1.55rem, 6vw, 2.15rem)/1.15 Georgia, "Times New Roman", serif !important;
+  text-transform: none !important;
+}
+#the-record .landing-hold p,
+#the-record .landing-hold summary {
+  color: #141210 !important;
+  background: transparent !important;
+  text-transform: none !important;
+}
+#the-record .landing-hold p {
+  margin: 0.7rem 0 0 !important;
+  max-width: 40rem !important;
+  font: 400 1.05rem/1.45 Georgia, "Times New Roman", serif !important;
+}
+#the-record .landing-hold a {
+  color: #8b2e2a !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+}
+#the-record .landing-hold summary {
+  cursor: pointer !important;
+  display: block !important;
+  margin-top: 0.85rem !important;
+  color: #1b2a4a !important;
+  font: 900 1.15rem/1.3 Georgia, "Times New Roman", serif !important;
+}
+
+#the-record nav.permanent-scroll > a {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  box-sizing: border-box !important;
+  min-height: 4.8rem !important;
+  padding: 0.6rem 0.85rem !important;
+  background: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  border: 0 !important;
+  border-right: 1px solid #8c7340 !important;
+  font: 700 1.02rem/1.25 Georgia, "Times New Roman", serif !important;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+#the-record nav.permanent-scroll > a span {
+  display: block !important;
+  margin: 0 0 0.22rem !important;
+  color: #e7c98a !important;
+  background: transparent !important;
+  font: 700 0.68rem/1.25 Verdana, Geneva, sans-serif !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  white-space: normal !important;
+}
+#the-record nav.sitewide-tabs {
+  max-height: none !important;
+  gap: 0 !important;
+}
+#the-record nav.sitewide-tabs a {
+  max-width: none !important;
+  min-width: 0 !important;
+  min-height: 48px !important;
+  white-space: nowrap !important;
+  padding: 0.7rem 1rem !important;
+}
+
+/* Permanent design template. Ivory paper, charcoal ink, navy headings.
+   Gold is a rule and a small label, never body text and never a link on paper.
+   Nothing is hidden. */
+html,
+body,
+#the-record,
+#the-record #the-record-main,
+#the-record .after-crystal,
+#the-record .gods-name,
+#the-record .landing-hold,
+#the-record .prophetic-declaration-top,
+#the-record .reading,
+#the-record .front,
+#the-record .notice-doc,
+#the-record article.statement,
+#the-record .official-letter,
+#the-record .editorial-hero,
+#the-record .reckoning-hero {
+  background: #f6f1e7 !important;
+  background-color: #f6f1e7 !important;
+  color: #1c1915 !important;
+}
+#the-record #the-record-main p,
+#the-record #the-record-main li,
+#the-record #the-record-main td,
+#the-record #the-record-main th,
+#the-record #the-record-main blockquote,
+#the-record #the-record-main figcaption,
+#the-record .after-crystal p,
+#the-record .after-crystal li,
+#the-record .gods-name p,
+#the-record .gods-name figcaption,
+#the-record .landing-hold p,
+#the-record .prophetic-declaration-top p,
+#the-record .prophetic-declaration-top li,
+#the-record .reading p,
+#the-record .front p,
+#the-record .notice-doc p {
+  color: #1c1915 !important;
+  background-color: transparent !important;
+}
+#the-record #the-record-main h1,
+#the-record #the-record-main h2,
+#the-record #the-record-main h3,
+#the-record #the-record-main h4,
+#the-record .after-crystal h1,
+#the-record .after-crystal h2,
+#the-record .after-crystal h3,
+#the-record .prophetic-declaration-top h1,
+#the-record .prophetic-declaration-top h2,
+#the-record .landing-hold h2,
+#the-record .reading h1,
+#the-record .front h1,
+#the-record .front h2,
+#the-record .notice-doc h1,
+#the-record .notice-doc h2 {
+  color: #1b2a4a !important;
+  background-color: transparent !important;
+}
+#the-record .kicker,
+#the-record .front-kicker,
+#the-record .gw-kicker,
+#the-record .meta,
+#the-record .gods-name-kicker {
+  color: #6b5424 !important;
+  background-color: transparent !important;
+}
+#the-record a {
+  color: #8b2e2a !important;
+  background-color: transparent !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.12em !important;
+}
+#the-record .sos-emergency,
+#the-record .sos-emergency p,
+#the-record .sos-emergency li,
+#the-record .sos-emergency h1,
+#the-record .sos-emergency h2,
+#the-record .chain-shelf,
+#the-record .chain-shelf p,
+#the-record .chain-shelf h2,
+#the-record .chain-shelf a,
+#the-record .chain-shelf a span,
+#the-record nav.main-top,
+#the-record nav.permanent-scroll,
+#the-record nav.sitewide-tabs,
+#the-record nav.permanent-tabs,
+#the-record nav.site-tabs,
+#the-record nav.keep-tabs,
+#the-record .archive-chrome,
+#the-record a.nuclear-top,
+#the-record a.nuclear-top span,
+#the-record a.nuclear-top strong,
+#the-record a.new-writing,
+#the-record a.visit-counter,
+#the-record a.visit-counter strong,
+#the-record a.visit-counter span,
+#the-record a.publish-declaration,
+#the-record a.publish-declaration strong,
+#the-record a.publish-declaration span,
+#the-record button.publish-declaration,
+#the-record button.publish-declaration strong {
+  color: #f6f1e7 !important;
+}
+#the-record .sos-emergency,
+#the-record .chain-shelf,
+#the-record nav.main-top,
+#the-record nav.permanent-scroll,
+#the-record nav.sitewide-tabs,
+#the-record nav.permanent-tabs,
+#the-record nav.site-tabs,
+#the-record nav.keep-tabs,
+#the-record .archive-chrome,
+#the-record a.nuclear-top,
+#the-record a.new-writing-second,
+#the-record a.visit-counter,
+#the-record a.publish-declaration,
+#the-record button.publish-declaration {
+  background-color: #1b2a4a !important;
+}
+#the-record .sos-emergency a,
+#the-record .chain-shelf a,
+#the-record nav.main-top a,
+#the-record nav.permanent-scroll > a,
+#the-record nav.sitewide-tabs a,
+#the-record nav.permanent-tabs a,
+#the-record nav.site-tabs a,
+#the-record nav.keep-tabs a,
+#the-record a.door,
+#the-record a.house-btn,
+#the-record a.nuclear-top,
+#the-record a.new-writing,
+#the-record a.book-download,
+#the-record a.visit-counter,
+#the-record a.publish-declaration,
+#the-record button.publish-declaration {
+  color: #f6f1e7 !important;
+  text-decoration: none !important;
+}
+#the-record a.book-shop {
+  background: #e7c98a !important;
+  background-color: #e7c98a !important;
+  color: #1b2a4a !important;
+  text-decoration: none !important;
+}
+#the-record a.new-writing {
+  background-color: #8b2e2a !important;
+}
+#the-record a.book-download {
+  background-color: #1b2a4a !important;
+}
+#the-record nav.main-top a.main-about {
+  background: #f6f1e7 !important;
+  background-color: #f6f1e7 !important;
+  color: #8b2e2a !important;
+}
+#the-record .gods-name h1 {
+  color: #8b2e2a !important;
+  background-color: transparent !important;
+}
+#the-record #book-store .book .dl a.book-count,
+#the-record #book-store .book .dl a.book-count span {
+  background: #f6f1e7 !important;
+  background-color: #f6f1e7 !important;
+  color: #1b2a4a !important;
+  text-decoration: none !important;
+}
+#the-record #book-store .book .dl a.book-count strong {
+  color: #8b2e2a !important;
+  background: transparent !important;
+}
+#the-record a.back-home {
+  display: flex !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-height: 44px !important;
+  margin: 0 !important;
+  padding: 0 1rem !important;
+  background: #1b2a4a !important;
+  background-color: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  text-decoration: none !important;
+}
+body.is-page .before-heading {
+  display: none !important;
+}
+#the-record .about-names,
+#the-record .about-names p,
+#the-record .about-names h1,
+#the-record .about-names a {
+  background-color: transparent !important;
+}
+#the-record .about-names {
+  background-color: #f6f1e7 !important;
+  color: #1c1915 !important;
+}
+#the-record .about-names h1,
+#the-record .about-names h1 a,
+#the-record .about-names a {
+  color: #8b2e2a !important;
+  text-decoration: underline !important;
+}
+#the-record .about-names h1 a {
+  text-decoration: none !important;
+}
+#the-record a.door,
+#the-record a.house-btn,
+#the-record nav.permanent-tabs a,
+#the-record nav.site-tabs a,
+#the-record nav.keep-tabs a,
+#the-record header.edition nav a,
+#the-record a.witness-count-button,
+#the-record .nuclear-block a.nuclear-download {
+  background-color: #1b2a4a !important;
+  color: #f6f1e7 !important;
+  text-decoration: none !important;
+}
+
+/* Paper template. Cream ground, black ink, oxblood links. Gold is only for text on navy. */
+#the-record .after-crystal,
+#the-record .after-crystal p,
+#the-record .after-crystal li,
+#the-record .after-crystal h1,
+#the-record .after-crystal h2,
+#the-record .after-crystal h3,
+#the-record .gods-name,
+#the-record .gods-name p,
+#the-record .gods-name figcaption,
+#the-record .landing-hold,
+#the-record .landing-hold p,
+#the-record .prophetic-declaration-top,
+#the-record .prophetic-declaration-top p,
+#the-record .prophetic-declaration-top li {
+  background-color: #f7f1e6 !important;
+  color: #141210 !important;
+}
+#the-record .after-crystal h1,
+#the-record .after-crystal h2,
+#the-record .landing-hold h2,
+#the-record .prophetic-declaration-top h1,
+#the-record .prophetic-declaration-top h2 {
+  color: #1b2a4a !important;
+  background-color: #f6f1e7 !important;
+}
+#the-record .after-crystal a,
+#the-record .gods-name a,
+#the-record .landing-hold a,
+#the-record .prophetic-declaration-top a {
+  color: #8b2e2a !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.14em !important;
+}
+#the-record .chain-shelf {
+  background: #1b2a4a !important;
+  color: #f6f1e7 !important;
+}
+#the-record .chain-shelf h2,
+#the-record .chain-shelf p,
+#the-record .chain-shelf a.chain-card,
+#the-record .chain-shelf a.chain-card span {
+  color: #f6f1e7 !important;
+  background: transparent !important;
+}
+a.nuclear-everywhere{display:flex !important;flex-wrap:wrap;align-items:baseline;gap:.35rem .7rem;box-sizing:border-box;width:100%;margin:0;padding:.65rem 1rem;background:#1B2A4A !important;color:#F6F1E7 !important;font:700 1rem/1.35 Verdana,Geneva,sans-serif !important;text-decoration:none !important}
+#the-record a.nuclear-everywhere,
+#the-record a.nuclear-everywhere strong,
+#the-record a.nuclear-everywhere span{display:inline !important;background:#1B2A4A !important;color:#F6F1E7 !important;border:0 !important;padding:0 !important;text-decoration:none !important}
+#the-record a.nuclear-everywhere{display:flex !important;padding:.65rem 1rem !important}
+#the-record a.nuclear-everywhere strong{color:#E7C98A !important;font:900 1.05rem/1.2 Verdana,Geneva,sans-serif !important;text-decoration:underline !important;text-underline-offset:.12em}
+#the-record #book-store a.nuclear-zip{display:inline-flex !important;background:#8B2E2A !important;color:#F6F1E7 !important;padding:0 .65rem !important;text-decoration:none !important}
+

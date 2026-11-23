@@ -1,0 +1,7 @@
+THE WITNESS REMAINS — OpenTimestamps edition
+30 October 2026, 2:37 AM AEDT
+Research design: the-mandate.txt
+Directory: the-directory.html
+
+d0b50b12fbf98a2eaf88209cb4d3aca6808231570b858495a1cbf7e9915f054a  the-mandate.txt
+5403f9f44e698e1e10cf4b31a131702424844486452f552bce48a58d6f752c76  the-directory.html

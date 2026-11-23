@@ -1,0 +1,17 @@
+MISSING AND INACCESSIBLE — 6 November 2026
+
+1. 123_gospels_barran_dodger.pdf in wezzo72/Barrandodger is a Git LFS pointer, not a PDF.
+   oid sha256:f678f076de6df4e2b273c024a228d931fb71cfe56b7bcf68428d61c255b8fc77
+   Declared size: 658,847 bytes.
+   https://media.githubusercontent.com/media/wezzo72/Barrandodger/main/123_gospels_barran_dodger.pdf returned 404.
+   Status: LFS OBJECT UNRESOLVED. It was not published.
+
+2. A file of the same name in wezzo72/Backup was a real PDF and was hosted separately. It is not the same object.
+
+3. The repository named barran-dodger-archive does not exist on the public account wezzo72.
+
+4. These repositories are private and were not opened: golden-witness-preservation, bd-press-editions, barrandodger-creative-discovery.
+
+5. The 8,113-row local catalogue contains about 284 filenames matching gospel, prophetic, witness and ministry terms. Those filenames were discovered. Their contents were not examined in this pass, except the thirteen PDFs listed as PUBLISHED.
+
+6. No new typeset edition was made. Hosting is a byte copy of the original PDF.

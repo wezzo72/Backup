@@ -1,0 +1,1 @@
+import{g as e,o as t}from"./index-DNPuc2cV.js";import{t as n}from"./mirror-frame-Tcgr2t-8.js";var r=e();function i(){let e=t.useLoaderData(),{_splat:i}=t.useParams();return(0,r.jsx)(n,{html:e.html,path:`/${i}`})}export{i as component};

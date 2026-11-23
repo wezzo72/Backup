@@ -1,0 +1,13 @@
+{
+  "pages_discovered": 445,
+  "html_exported": 445,
+  "pdf_renderings": 445,
+  "original_pdfs": 13,
+  "ebooks_and_texts": 17,
+  "images": 96,
+  "manifest_rows": 1045,
+  "failed": 384,
+  "bytes": 1201320488,
+  "volumes": 15,
+  "note": "Homepage PDF rendered on a second pass without embedded images after the first pass left an empty file. 15 compiled volumes contain the 445 page renderings."
+}

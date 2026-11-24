@@ -1,0 +1,17 @@
+24 November 2026 record check
+
+Bookstore: 413 titles. Every PDF name and every EPUB name from books.json is already in BOOKSTORE-COMPLETE-ARCHIVE. The folder holds 1,753 files, 453 PDFs and 443 EPUBs. GitHub commit dbf38d54140ddd9beb3cbc931acf56796df053ae already contained that folder. Nothing in it was overwritten.
+
+Pages: 173 public pages that were not in 01-COMPLETE-WEBSITE-EXPORT were saved as HTML on this date. One address was not a page: /publishing-house/file/$sha. It was removed from the sitemap.
+
+Stripe donation links were opened. All five returned HTTP 200. Prices were not changed.
+
+Broken links left as they are, because the files do not exist:
+- /preservation/registers-2026-11-10.zip
+- /vision/prophecy-of-resurrection-cover.jpg
+
+Two links were given a page that points at a file or page that does exist:
+- /complete-works/index.html points at /complete-works.txt
+- /global-publishing-house/index.html points at /publishing-house
+
+No original document was deleted or rewritten.
